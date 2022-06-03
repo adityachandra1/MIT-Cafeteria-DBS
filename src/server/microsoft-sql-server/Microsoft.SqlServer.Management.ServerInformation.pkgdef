@@ -1,0 +1,21 @@
+[$RootKey$\InstalledProducts\ServerInformationPackage]
+@="#110"
+"Package"="{8b9feb47-46b3-4466-953b-5685a04eb295}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{8b9feb47-46b3-4466-953b-5685a04eb295}]
+@="Microsoft.SqlServer.Management.ServerInformation.ServerInformationPackage, Microsoft.SqlServer.Management.ServerInformation, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.ServerInformation.ServerInformationPackage"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.ServerInformation.dll"
+[$RootKey$\Packages\{8b9feb47-46b3-4466-953b-5685a04eb295}]
+"ID"=dword:00000001
+"MinEdition"="Standard"
+"ProductVersion"="1.0"
+"ProductName"="ServerInformation"
+"CompanyName"="Microsoft"
+[$RootKey$\Services\{ce99a049-a364-4c12-96bb-8ea022808dfa}]
+@="{8b9feb47-46b3-4466-953b-5685a04eb295}"
+"Name"="Server Information Service"
+

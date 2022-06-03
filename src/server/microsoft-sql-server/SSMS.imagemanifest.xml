@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ This file defines icon ID's and which image files they correspond to. This file is used in 
+ conjunction with the CustomMoniker.vsct file to provide the necessary data to display your 
+ custom moniker in menu buttons, toolbars, etc.
+-->
+<ImageManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/VisualStudio/ImageManifestSchema/2014">
+  <Symbols>
+    <String Name="Resources" Value="/Microsoft.SqlServer.Management.SqlStudio.Explorer;Component/Resources" />
+    <Guid Name="XamlImageManifest" Value="{d53d7256-d44d-4245-bdd2-bfd22943659c}" />
+    <ID Name="AnalysisService" Value="1" />
+    <ID Name="AzureStorage" Value="2" />
+    <ID Name="Connect" Value="3" />
+    <ID Name="DatabaseEngine" Value="4" />
+    <ID Name="Disconnect" Value="5" />
+    <ID Name="Filter" Value="6" />
+    <ID Name="IntegrationService" Value="7" />
+    <ID Name="ObjectExplorer" Value="8" />
+    <ID Name="ObjectExplorerDetails" Value="9" />
+    <ID Name="PolicyHealth" Value="10" />
+    <ID Name="RegisteredServerExplorer" Value="11" />
+    <ID Name="ReportingService" Value="12" />
+    <ID Name="SQLCE" Value="13" />
+    <ID Name="Stop" Value="14" />
+    <ID Name="Sync" Value="15" />
+    <ID Name="TemplateExplorer" Value="16" />
+    <ID Name="UpperLevelFolder" Value="17" />
+    <ID Name="ParseQuery" Value="18" />
+    <ID Name="RunQuery" Value="19" />
+    <ID Name="ResultsToText" Value="20" />
+    <ID Name="ResultsToFile" Value="21" />
+    <ID Name="ResultsToGrid" Value="22" />
+    <ID Name="ShowExecutionPlan" Value="23" />
+    <ID Name="ShowEstExecutionPlan" Value="24" />
+    <ID Name="ShowClientStats" Value="25" />
+    <ID Name="ClearClientStats" Value="26" />
+    <ID Name="DatabaseTuningAdvisor" Value="27" />
+    <ID Name="ShowOleSql" Value="28" />
+    <ID Name="SpecifyParameters" Value="29" />
+    <ID Name="AEPermissions" Value="30" />
+    <ID Name="AEExtendedProps" Value="31" />
+    <ID Name="AEInfo" Value="32" />
+    <ID Name="AEGeneral" Value="33" />
+    <ID Name="AEWarning" Value="34" />
+    <ID Name="ChangeConnection" Value="35" />
+    <ID Name="CloneConnection" Value="36" />
+    <ID Name="ScriptToWindow" Value="37" />
+    <ID Name="ScriptToFile" Value="38" />
+    <ID Name="ScriptToClipboard" Value="39" />
+    <ID Name="Schedule" Value="40" />
+    <ID Name="NewSqlQuery" Value="41" />
+    <ID Name="NewAsQuery" Value="42" />
+    <ID Name="NewSqlCeQuery" Value="43" />
+    <ID Name="DMXQuery" Value="44" />
+    <ID Name="MDXQuery" Value="45" />
+    <ID Name="XMLAQuery" Value="46" />
+    <ID Name="DesignQuery" Value="47" />
+    <ID Name="ToggleIntelliSense" Value="48" />
+    <ID Name="QueryOptions" Value="49" />
+    <ID Name="ShowLivePlan" Value="50" />
+    <ID Name="Refresh" Value="51" />
+    <ID Name="DAXQuery" Value="52" />
+    <ID Name="SQLProfiler" Value="53" />
+    <ID Name="AzureDataStudio" Value="54" />
+  </Symbols>
+  <Images>
+    <Image Guid="$(XamlImageManifest)" ID="$(AnalysisService)">
+      <Source Uri="$(Resources)/AnalysisService.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(AzureStorage)">
+      <Source Uri="$(Resources)/AzureStorage.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(Connect)">
+      <Source Uri="$(Resources)/Connect.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(DatabaseEngine)">
+      <Source Uri="$(Resources)/DatabaseEngine.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(Disconnect)">
+      <Source Uri="$(Resources)/Disconnect.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(Filter)">
+      <Source Uri="$(Resources)/Filter.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(IntegrationService)">
+      <Source Uri="$(Resources)/IntegrationService.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ObjectExplorer)">
+      <Source Uri="$(Resources)/ObjectExplorer.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ObjectExplorerDetails)">
+      <Source Uri="$(Resources)/ObjectExplorerDetails.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(PolicyHealth)">
+      <Source Uri="$(Resources)/PolicyHealth.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(RegisteredServerExplorer)">
+      <Source Uri="$(Resources)/RegisteredServerExplorer.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ReportingService)">
+      <Source Uri="$(Resources)/ReportingService.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(SQLCE)">
+      <Source Uri="$(Resources)/SQLCE.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(Stop)">
+      <Source Uri="$(Resources)/Stop.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(Sync)">
+      <Source Uri="$(Resources)/Sync.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(TemplateExplorer)">
+      <Source Uri="$(Resources)/TemplateExplorer.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(UpperLevelFolder)">
+      <Source Uri="$(Resources)/UpperLevelFolder.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ParseQuery)">
+      <Source Uri="$(Resources)/ParseQuery.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(RunQuery)">
+      <Source Uri="$(Resources)/RunQuery.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ResultsToText)">
+      <Source Uri="$(Resources)/ResultsToText.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ResultsToFile)">
+      <Source Uri="$(Resources)/ResultsToFile.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ResultsToGrid)">
+      <Source Uri="$(Resources)/ResultsToGrid.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ShowExecutionPlan)">
+      <Source Uri="$(Resources)/ShowExecutionPlan.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ShowEstExecutionPlan)">
+      <Source Uri="$(Resources)/ShowEstExecutionPlan.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ShowClientStats)">
+      <Source Uri="$(Resources)/ShowClientStats.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ClearClientStats)">
+      <Source Uri="$(Resources)/ClearClientStats.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(DatabaseTuningAdvisor)">
+      <Source Uri="$(Resources)/DatabaseTuningAdvisor.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ShowOleSql)">
+      <Source Uri="$(Resources)/ShowOleSql.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(SpecifyParameters)">
+      <Source Uri="$(Resources)/SpecifyParameters.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(AEPermissions)">
+      <Source Uri="$(Resources)/AEPermissions.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(AEExtendedProps)">
+      <Source Uri="$(Resources)/AEExtendedProps.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(AEInfo)">
+      <Source Uri="$(Resources)/AEInfo.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(AEGeneral)">
+      <Source Uri="$(Resources)/AEGeneral.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(AEWarning)">
+      <Source Uri="$(Resources)/AEWarning.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ChangeConnection)">
+      <Source Uri="$(Resources)/ChangeConnection.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(CloneConnection)">
+      <Source Uri="$(Resources)/CloneConnection.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ScriptToWindow)">
+      <Source Uri="$(Resources)/ScriptToWindow.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ScriptToFile)">
+      <Source Uri="$(Resources)/ScriptToFile.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ScriptToClipboard)">
+      <Source Uri="$(Resources)/ScriptToClipboard.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(Schedule)">
+      <Source Uri="$(Resources)/Schedule.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(NewSqlQuery)">
+      <Source Uri="$(Resources)/NewSqlQuery.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(NewAsQuery)">
+      <Source Uri="$(Resources)/NewAsQuery.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(NewSqlCeQuery)">
+      <Source Uri="$(Resources)/NewSqlCeQuery.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(DMXQuery)">
+      <Source Uri="$(Resources)/DMXQuery.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(MDXQuery)">
+      <Source Uri="$(Resources)/MDXQuery.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(XMLAQuery)">
+      <Source Uri="$(Resources)/XMLAQuery.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(DesignQuery)">
+      <Source Uri="$(Resources)/DesignQuery.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ToggleIntelliSense)">
+      <Source Uri="$(Resources)/ToggleIntelliSense.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(QueryOptions)">
+      <Source Uri="$(Resources)/QueryOptions.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(ShowLivePlan)">
+      <Source Uri="$(Resources)/ShowLivePlan.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(Refresh)">
+      <Source Uri="$(Resources)/Refresh.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(DAXQuery)">
+      <Source Uri="$(Resources)/DAXQuery.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(SQLProfiler)">
+      <Source Uri="$(Resources)/SQLProfiler.xaml" />
+    </Image>
+    <Image Guid="$(XamlImageManifest)" ID="$(AzureDataStudio)">
+      <Source Uri="$(Resources)/AzureDataStudio.xaml" />
+    </Image>
+  </Images>
+  <ImageLists />
+</ImageManifest>

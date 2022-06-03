@@ -1,0 +1,31 @@
+[$RootKey$\InstalledProducts\HADRTasksPackage]
+@="#110"
+"Package"="{e23f3b8c-9e4c-4f83-a15c-7e0905eb0a28}"
+"PID"="11.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{e23f3b8c-9e4c-4f83-a15c-7e0905eb0a28}]
+@="Microsoft.SqlServer.Management.Hadr.HadrTasksPackage, Microsoft.SqlServer.Management.HadrTasks, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\system32\mscoree.dll"
+"Class"="Microsoft.SqlServer.Management.Hadr.HadrTasksPackage"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.HadrTasks.dll"
+[$RootKey$\Services\{a0c41b1c-edf7-44ba-acf6-cf4feddc8233}]
+@="{e23f3b8c-9e4c-4f83-a15c-7e0905eb0a28}"
+"Name"="AlwaysOn Service"
+[$RootKey$\ToolWindows\{dc370b2d-b95e-4609-85c7-9e85fcd5539a}]
+@="{e23f3b8c-9e4c-4f83-a15c-7e0905eb0a28}"
+"Name"="Microsoft.SqlServer.Management.Hadr.AlwaysOnToolWindow"
+"Style"="MDI"
+"Float"="0, 0, 600, 400"
+"DontForceCreate"=dword:00000001
+[$RootKey$\ToolsOptionsPages\Alwayson]
+@="#113"
+"Package"="{e23f3b8c-9e4c-4f83-a15c-7e0905eb0a28}"
+[$RootKey$\ToolsOptionsPages\Alwayson\Dashboard]
+@="#114"
+"Package"="{e23f3b8c-9e4c-4f83-a15c-7e0905eb0a28}"
+"Page"="{5F81673A-E55B-42A9-BA1C-4E7053D95307}"
+[$RootKey$\AutomationProperties\Alwayson\Dashboard]
+"Name"="Alwayson.Dashboard"
+"Package"="{e23f3b8c-9e4c-4f83-a15c-7e0905eb0a28}"
+

@@ -1,0 +1,22 @@
+[$RootKey$\InstalledProducts\SqlStudioActionsPackage]
+@="#110"
+"Package"="{744d9cc6-47f6-4bd2-80a6-9426cfea6d99}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{744d9cc6-47f6-4bd2-80a6-9426cfea6d99}]
+@="Microsoft.SqlServer.Management.SqlStudio.Actions.SqlStudioActionsPackage, Microsoft.SqlServer.Management.SqlStudio.Actions, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.SqlStudio.Actions.SqlStudioActionsPackage"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.SqlStudio.Actions.dll"
+[$RootKey$\AutoLoadPackages\{9b2dbb1d-821b-420a-aabe-46232d9177a1}]
+"{744d9cc6-47f6-4bd2-80a6-9426cfea6d99}"=dword:00000000
+[$RootKey$\Packages\{744d9cc6-47f6-4bd2-80a6-9426cfea6d99}]
+"ID"=dword:00000001
+"MinEdition"="Standard"
+"ProductVersion"="1.0"
+"ProductName"="SqlStudioActions"
+"CompanyName"="Microsoft"
+[$RootKey$\Menus]
+"{744d9cc6-47f6-4bd2-80a6-9426cfea6d99}"=", Menus.ctmenu, 1"
+

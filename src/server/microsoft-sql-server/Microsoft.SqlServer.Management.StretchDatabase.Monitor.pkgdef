@@ -1,0 +1,20 @@
+[$RootKey$\InstalledProducts\StretchDatabaseMonitorPackage]
+@="#110"
+"Package"="{A60C0A8E-63FE-4805-AD89-F0BFA10E50A8}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{A60C0A8E-63FE-4805-AD89-F0BFA10E50A8}]
+@="Microsoft.SqlServer.Management.StretchDatabase.Monitor.StretchDatabaseMonitorPackage, Microsoft.SqlServer.Management.StretchDatabase.Monitor, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.StretchDatabase.Monitor.StretchDatabaseMonitorPackage"
+"Assembly"="Microsoft.SqlServer.Management.StretchDatabase.Monitor, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\Services\{60709B5D-3B74-4F6E-B065-B1FCC963E9A6}]
+@="{A60C0A8E-63FE-4805-AD89-F0BFA10E50A8}"
+"Name"="StretchDatabaseWindowService"
+
+[$RootKey$\ToolWindows\{D9FE4048-B1F6-4D2D-B240-05AC9E1D1F44}]
+@="{A60C0A8E-63FE-4805-AD89-F0BFA10E50A8}"
+"Name"="StretchDatabaseMonitorWindow"
+"Style"="MDI"

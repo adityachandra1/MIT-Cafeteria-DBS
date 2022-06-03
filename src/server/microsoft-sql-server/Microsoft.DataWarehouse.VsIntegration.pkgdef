@@ -1,0 +1,731 @@
+[$RootKey$\Packages\{5db82c51-8a05-3c25-9a6a-dc46b66a2582}]
+@="Microsoft.DataWarehouse.VsIntegration.PVsPackage, Microsoft.DataWarehouse.VsIntegration, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.DataWarehouse.VsIntegration.PVsPackage"
+"CodeBase"="$RootFolder$\Common7\IDE\Microsoft.DataWarehouse.VsIntegration.dll"
+
+[$RootKey$\Packages\{5db82c51-8a05-3c25-9a6a-dc46b66a2582}\SatelliteDll]
+"Path"="$RootFolder$\Common7\IDE"
+"DllName"="Microsoft.DataWarehouse.VsIntegration.rll"
+
+[$RootKey$\InstalledProducts\DWDesignerPackage]
+@="#110"
+"Package"="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+
+[$RootKey$\InstalledProducts\Setup\CSharpDW]
+"ProductDir"="$ShellDir$\Business Intelligence Wizards\LanguageProjects\CSharp\CSharpDWWizards\"
+
+[$RootKey$\InstalledProducts\Setup\VBDW]
+"ProductDir"="$ShellDir$\Business Intelligence Wizards\LanguageProjects\VB\VBDWWizards\"
+
+[$RootKey$\InstalledProducts\Setup\JSharpDW]
+"ProductDir"="$ShellDir$\Business Intelligence Wizards\LanguageProjects\JSharp\JSharpDWWizards\"
+
+[$RootKey$\FontAndColors\Data Warehouse Designer]
+"Package"="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Category"="{34F54DB8-3D69-4d94-ABD5-BA1D717AB8BE}"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}]
+@="Microsoft.DataWarehouse.VsIntegration.Shell.DWDesignerPackage, Microsoft.DataWarehouse.VsIntegration, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.DataWarehouse.VsIntegration.Shell.DWDesignerPackage"
+"CodeBase"="$RootFolder$\Common7\IDE\Microsoft.DataWarehouse.VsIntegration.dll"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\SatelliteDll]
+"Path"="$RootFolder$\Common7\IDE"
+"DllName"="Microsoft.DataWarehouse.VsIntegration.rll"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Analysis Services Project\Upgraders]
+"9.0.2.10"="Microsoft.AnalysisServices.Project.AnalysisServicesProjectUpgrader2_9To2_10, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Debug\Options]
+"DelegateMessageFilter"="0"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Debug\General\Locations]
+"LocalInstallationRoot"="$RootFolder$\Common7\IDE"
+"TemplateInstallationRoot"="$RootFolder$\Common7\IDE"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Serialization\SerializableComponents]
+"cube"="Microsoft.AnalysisServices.Cube, Microsoft.AnalysisServices.AppLocal, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"dim"="Microsoft.AnalysisServices.Dimension, Microsoft.AnalysisServices.AppLocal, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"dmm"="Microsoft.AnalysisServices.MiningStructure, Microsoft.AnalysisServices.AppLocal, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"ds"="Microsoft.AnalysisServices.DataSource, Microsoft.AnalysisServices.AppLocal, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"dsv"="Microsoft.AnalysisServices.DataSourceView, Microsoft.AnalysisServices.AppLocal, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"partitions"="Microsoft.AnalysisServices.Project.ComponentModel.PartitionsSet, Microsoft.AnalysisServices.Project, Version=15..0.0, PublicKeyToken=89845dcd8080cc91"
+"database"="Microsoft.AnalysisServices.Database, Microsoft.AnalysisServices.AppLocal, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"role"="Microsoft.AnalysisServices.Role, Microsoft.AnalysisServices.AppLocal, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\CommandUIGuids]
+"cube"="{B0575F10-2219-429c-A1D5-C915D81D25BD}"
+"database"="{706E2F7B-74D8-4c00-86C2-41242A334F76}"
+"dim"="{7E3E03ED-36CA-4626-885F-6A531531CEA9}"
+"dmm"="{F003262C-6FA5-4325-82EC-246A95D34BAF}"
+"ds"="{AED5C765-03BA-4c88-8CF2-B43F71E27074}"
+"dsv"="{8CB84D67-9C4B-4233-A1D1-7D73C557031B}"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\DataMiningViewers\Microsoft_Tree_Viewer]
+"Class"="Microsoft.AnalysisServices.Viewers.TreeViewer"
+"Assembly"="Microsoft.AnalysisServices.Viewers, PublicKeyToken=89845dcd8080cc91"
+"Algorithms"="Microsoft_Decision_Trees"
+"DisplayName"="Microsoft Tree Viewer"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\DataMiningViewers\Microsoft_Cluster_Viewer]
+"Class"="Microsoft.AnalysisServices.Viewers.ClusterViewer"
+"Assembly"="Microsoft.AnalysisServices.Viewers, PublicKeyToken=89845dcd8080cc91"
+"Algorithms"="Microsoft_Clustering"
+"DisplayName"="Microsoft Cluster Viewer"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\DataMiningViewers\Microsoft_SequenceCluster_Viewer]
+"Class"="Microsoft.AnalysisServices.Viewers.SequenceClusterViewer"
+"Assembly"="Microsoft.AnalysisServices.Viewers, PublicKeyToken=89845dcd8080cc91"
+"Algorithms"="Microsoft_Sequence_Clustering"
+"DisplayName"="Microsoft Sequence Cluster Viewer"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\DataMiningViewers\Microsoft_AssociationRules_Viewer]
+"Class"="Microsoft.AnalysisServices.Viewers.AssociationViewer"
+"Assembly"="Microsoft.AnalysisServices.Viewers, PublicKeyToken=89845dcd8080cc91"
+"Algorithms"="Microsoft_Association_Rules"
+"DisplayName"="Microsoft Association Rules Viewer"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\DataMiningViewers\Microsoft_TimeSeries_Viewer]
+"Class"="Microsoft.AnalysisServices.Viewers.TimeSeriesViewer"
+"Assembly"="Microsoft.AnalysisServices.Viewers, PublicKeyToken=89845dcd8080cc91"
+"Algorithms"="Microsoft_Time_Series"
+"DisplayName"="Microsoft Time Series Viewer"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\DataMiningViewers\Microsoft_NaiveBayesian_Viewer]
+"Class"="Microsoft.AnalysisServices.Viewers.NaiveBayesViewer"
+"Assembly"="Microsoft.AnalysisServices.Viewers, PublicKeyToken=89845dcd8080cc91"
+"Algorithms"="Microsoft_Naive_Bayes"
+"DisplayName"="Microsoft Naive Bayes Viewer"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\DataMiningViewers\Microsoft_NeuralNetwork_Viewer]
+"Class"="Microsoft.AnalysisServices.Viewers.NeuralNetViewer"
+"Assembly"="Microsoft.AnalysisServices.Viewers, PublicKeyToken=89845dcd8080cc91"
+"Algorithms"="Microsoft_Neural_Network"
+"DisplayName"="Microsoft Neural Network Viewer"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\DataMiningViewers\Microsoft_Content_Grid_Viewer]
+"Class"="Microsoft.AnalysisServices.Viewers.ContentGridViewer"
+"Assembly"="Microsoft.AnalysisServices.Viewers, PublicKeyToken=89845dcd8080cc91"
+"Algorithms"="*"
+"DisplayName"="Microsoft Mining Content Viewer"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\Wizards\DefaultNames]
+"Microsoft.AnalysisServices.DataSourceView"="DataSourceView.dsv"
+"Microsoft.AnalysisServices.DataSource"="DataSource.dsv"
+"Microsoft.AnalysisServices.Dimension"="Dimension.dim"
+"Microsoft.AnalysisServices.Cube"="Cube.cube"
+"Microsoft.AnalysisServices.MiningStructure"="MiningModel.dmm"
+"Microsoft.AnalysisServices.Role"="Role.role"
+"Microsoft.AnalysisServices.Database"=""
+"Microsoft.AnalysisServices.Partition"=""
+"Microsoft.AnalysisServices.Aggregation"=""
+"Microsoft.AnalysisServices.BusinessIntelligence"=""
+"Microsoft.AnalysisServices.Wizards.NestedTableForm"=""
+"Microsoft.AnalysisServices.Wizards.SchemaGeneration"=""
+"Microsoft.AnalysisServices.Wizards.SchemaGenerationUI"=""
+"Microsoft.AnalysisServices.Wizards.LinkedObject"=""
+"Microsoft.AnalysisServices.Wizards.UsageBasedOptimization"=""
+
+[$RootKey$\\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\Designers\Wizards\Mappings]
+"Microsoft.AnalysisServices.DataSourceView"="$RootFolder$\Common7\IDE\ProjectItems\DataSourceView.vsz"
+"Microsoft.AnalysisServices.DataSource"="$RootFolder$\Common7\IDE\ProjectItems\DataSource.vsz"
+"Microsoft.AnalysisServices.Dimension"="$RootFolder$\Common7\IDE\ProjectItems\Dimension.vsz"
+"Microsoft.AnalysisServices.Cube"="$RootFolder$\Common7\IDE\ProjectItems\Cube.vsz"
+"Microsoft.AnalysisServices.MiningStructure"="$RootFolder$\Common7\IDE\ProjectItems\MiningModel.vsz"
+"Microsoft.AnalysisServices.Role"="$RootFolder$\Common7\IDE\ProjectItems\Role.vsz"
+"Microsoft.AnalysisServices.Database"="$RootFolder$\Common7\IDE\ProjectItems\DataWarehouse.vsz"
+"Microsoft.AnalysisServices.Partition"="$RootFolder$\Common7\IDE\ProjectItems\Partition.vsz"
+"Microsoft.AnalysisServices.Aggregation"="$RootFolder$\Common7\IDE\ProjectItems\Aggregation.vsz"
+"Microsoft.AnalysisServices.BusinessIntelligence"="$RootFolder$\Common7\IDE\ProjectItems\BusinessIntelligence.vsz"
+"Microsoft.AnalysisServices.Wizards.NestedTableForm"="$RootFolder$\Common7\IDE\ProjectItems\AddNestedTable.vsz"
+"Microsoft.AnalysisServices.Wizards.SchemaGeneration"="$RootFolder$\Common7\IDE\ProjectItems\SchemaGeneration.vsz"
+"Microsoft.AnalysisServices.Wizards.SchemaGenerationUI"="$RootFolder$\Common7\IDE\ProjectItems\SchemaGenerationUI.vsz"
+"Microsoft.AnalysisServices.Wizards.LinkedObject"="$RootFolder$\Common7\IDE\ProjectItems\LinkedObject.vsz"
+"Microsoft.AnalysisServices.Wizards.UsageBasedOptimization"="$RootFolder$\Common7\IDE\ProjectItems\UsageBasedOptimization.vsz"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\BI Solution\ProjectTemplates]
+"Database"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\Database\DatabaseProject.dbp"
+"AnalysisServices"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\AnalysisServices\AnalysisServicesProject.dwproj"
+"Dts"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\DataTransformationServices\DataTransformationsProject.dtproj"
+"Reports"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\Reports\ReportProject.vsz"
+"CSharpAMOSproc"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\LanguageProjects\CSharp\CSharpDWWizards\AMOStoredProcedure.vsz"
+"CSharpADOMDSproc"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\LanguageProjects\CSharp\CSharpDWWizards\ADOMDStoredProcedure.vsz"
+"CSharpWinApp"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\LanguageProjects\CSharp\CSharpDWWizards\WindowsApplication.vsz"
+"CSharpWebApp"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\LanguageProjects\CSharp\CSharpDWWizards\WebApplication.vsz"
+"VBAMOSproc"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\LanguageProjects\VB\VBDWWizards\AMOStoredProcedure.vsz"
+"VBADOMDSproc"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\LanguageProjects\VB\VBDWWizards\ADOMDStoredProcedure.vsz"
+"VBWinApp"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\LanguageProjects\VB\VBDWWizards\WindowsApplication.vsz"
+"VBWebApp"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\LanguageProjects\VB\VBDWWizards\WebApplication.vsz"					
+"JSharpAMOSproc"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\LanguageProjects\JSharp\JSharpDWWizards\AMOStoredProcedure.vsz"
+"JSharpADOMDSproc"="$RootFolder$\Common7\IDE\Business Intelligence Wizards\LanguageProjects\JSharp\JSharpDWWizards\ADOMDStoredProcedure.vsz"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\FontsAndColors\{34F54DB8-3D69-4d94-ABD5-BA1D717AB8BE}]
+"Category"="{34F54DB8-3D69-4d94-ABD5-BA1D717AB8BE}"
+"Name"="#501"
+"FontFaceName"="#502"
+"FontPointSize"="#503"
+"Flags"=dword:00000002
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\Settings\FontsAndColors\{34F54DB8-3D69-4d94-ABD5-BA1D717AB8BE}\Text]
+@="Text"
+"Index"=dword:00000000
+"Name"="Text"
+"LocalizableName"="#508"
+"Description"="#509"
+"Foreground"=dword:33554432
+"Background"=dword:33554432
+"AutoForeground"=dword:00000000
+"AutoBackground"=dword:16777215
+"FontFlags"=dword:00000000
+"MarkerVisualStyle"=dword:00000000
+"LineStyle"=dword:00000000
+"Flags"=dword:00000058
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\ToolBox]
+"Default Items"=dword:00000003
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\DWProjects\dwproj]
+@="Analysis Services Project"
+"DocumentObject"="Microsoft.DataWarehouse.VsIntegration.Designer.Serialization.TextBufferDocumentObject, Microsoft.DataWarehouse.VsIntegration, PublicKeyToken=89845dcd8080cc91"
+"Project"="{d2abab84-bf74-430a-b69e-9dc6d40dda17}"
+"ProjectManager"="Microsoft.AnalysisServices.Project.AnalysisServicesProjectManager, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+"MasterTemplate"="%InstallPath%Business Intelligence Projects\AnalysisServicesProject.dwproj"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\DWProjects\dwproj\1]
+@="Analysis Services Project"
+"DocumentObject"="Microsoft.AnalysisServices.Project.ComponentModel.DatabaseOnlineDocumentObject, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+"Project"="{d2abab84-bf74-430a-b69e-9dc6d40dda17}"
+"ProjectManager"="Microsoft.AnalysisServices.Project.OnlineAnalysisServicesProjectManager, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\DWProjects\dwproj\2]
+@="Analysis Services Project"
+"DocumentObject"="Microsoft.DataWarehouse.VsIntegration.Designer.Serialization.ComponentDocumentObject, Microsoft.DataWarehouse.VsIntegration, PublicKeyToken=89845dcd8080cc91"
+"Project"="{d2abab84-bf74-430a-b69e-9dc6d40dda17}"
+"ProjectManager"="Microsoft.AnalysisServices.Project.ViewersProject.ViewersProjectManager, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\DWProjects\asproj]
+@="Analysis Services Project"
+"DocumentObject"="Microsoft.DataWarehouse.VsIntegration.Designer.Serialization.TextBufferDocumentObject, Microsoft.DataWarehouse.VsIntegration, PublicKeyToken=89845dcd8080cc91"
+"Project"="{d2abab84-bf74-430a-b69e-9dc6d40dda17}"
+"ProjectManager"="Microsoft.AnalysisServices.Project.AnalysisServicesProjectManager, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+"MasterTemplate"="%InstallPath%Business Intelligence Projects\AnalysisServicesProject.dwproj"
+
+[$RootKey$\Packages\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\DWProjects\asproj\1]
+@="Analysis Services Project"
+"DocumentObject"="Microsoft.AnalysisServices.Project.ComponentModel.DatabaseOnlineDocumentObject, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+"Project"="{d2abab84-bf74-430a-b69e-9dc6d40dda17}"
+"ProjectManager"="Microsoft.AnalysisServices.Project.OnlineAnalysisServicesProjectManager, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\Editors\{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}]
+@="Data Warehouse Designer"
+"AcceptBinaryFiles"=dword:00000000
+"DisplayName"="DataWarehouse Designer"
+"ExcludeDefTextEditor"=dword:00000001
+"Package"="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+
+[$RootKey$\Editors\{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}\DWExtensions]
+"cube"=""
+"dim"=""
+"dmm"=""
+"ds"=""
+"dsv"=""
+"partitions"=""
+"database"=""
+"role"=""
+
+[$RootKey$\Editors\{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}\Extensions]
+"cube"=dword:00000040
+"dim"=dword:00000040
+"dmm"=dword:00000040
+"ds"=dword:00000040
+"dsv"=dword:00000040
+"partitions"=dword:00000040
+"database"=dword:00000040
+"role"=dword:00000040
+
+[$RootKey$\Editors\{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}\LogicalViews]
+"{7651a700-06e5-11d1-8ebd-00a0c90f26ea}"=""
+"{7651a701-06e5-11d1-8ebd-00a0c90f26ea}"="XML"
+"{7651a702-06e5-11d1-8ebd-00a0c90f26ea}"=""
+
+[$RootKey$\Editors\{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}\OpenWithEntries]
+"{7651a700-06e5-11d1-8ebd-00a0c90f26ea}"="#2001"
+"{7651a701-06e5-11d1-8ebd-00a0c90f26ea}"="#2002"
+
+[$RootKey$\Menus]
+"{4a0c6509-bf90-43da-abee-0aba3a8527f1}"=", Menus.ctmenu, 1"
+
+[$RootKey$\Projects\{d183a3d8-5fd8-494b-b014-37f57b35e655}]
+@="PVsProjectFactory"
+"DisplayName"="Data Transformations Project"
+"DisplayProjectFileExtensions"="Data Transformations Project Files (*.dtproj);*.dtproj"
+"Package"="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"DefaultProjectExtension"="dtproj"
+"PossibleProjectExtensions"="dtproj"
+"ProjectTemplatesDir"="$PackageFolder$\..\..\Business Intelligence Projects"
+
+[$RootKey$\Projects\{159641d6-6404-4a2a-ae62-294de0fe8301}]
+@="Data Transformations Project"
+"DefaultProjectExtension"=".dtproj"
+"DisplayName"="Data Transformations Project"
+"ItemTemplatesDir"="$RootFolder$\Common7\IDE\ProjectItems\DataTransformationProject"
+"Package"="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"PossibleProjectExtensions"="dtproj"
+"ProjectTemplatesDir"="$RootFolder$\Common7\IDE\Business Intelligence Projects"
+
+[$RootKey$\Projects\{159641d6-6404-4a2a-ae62-294de0fe8301}\AddItemTemplates\TemplateDirs\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\1]
+@="Data Transformations Project"
+"SortPriority"=dword:00000001
+"TemplatesDir"="$RootFolder$\Common7\IDE\ProjectItems\DataTransformationProject"
+
+[$RootKey$\Projects\{d2abab84-bf74-430a-b69e-9dc6d40dda17}]
+@="Analysis Services Project"
+"DefaultProjectExtension"=".dwproj"
+"DisplayName"="#3001"
+"DisplayProjectFileExtensions"="#3002"
+"ItemTemplatesDir"="$RootFolder$\Common7\IDE\ProjectItems\AnalysisServicesProject"
+"Package"="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"PossibleProjectExtensions"="dwproj;asproj"
+"ProjectTemplatesDir"="$RootFolder$\Common7\IDE\Business Intelligence Projects"
+"ProjectResourceResolver"="Microsoft.AnalysisServices.Project.AnalysisServicesprojectResourceResolver, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\Projects\{d2abab84-bf74-430a-b69e-9dc6d40dda17}\AddItemTemplates\TemplateDirs\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\1]
+@="Analysis Services Project"
+"SortPriority"=dword:00000001
+"TemplatesDir"="$RootFolder$\Common7\IDE\ProjectItems\AnalysisServicesProject"
+
+[$RootKey$\NewProjectTemplates\TemplateDirs\{4a0c6509-bf90-43da-abee-0aba3a8527f1}\/1]
+@="Data Transformations Project"
+"SortPriority"=dword:00000064
+"TemplatesDir"="$PackageFolder$\..\..\Business Intelligence Projects"
+
+[$RootKey$\Services\{59ec0b12-b6e0-4ccb-9e1a-d54362316bc1}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="ISettingsService"
+
+[$RootKey$\Services\{80273892-c4c7-451d-ab6b-b9a6da2128a5}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="IDWProjectManagerService"
+
+[$RootKey$\Services\{67287d05-e699-48f2-a1b5-5437c0ca4bdb}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="IDWDesignerService"
+
+[$RootKey$\Services\{9513E7A0-CFB7-4424-BB7D-16DE3B6820B3}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="IDataConnectionsService"
+
+[$RootKey$\Services\{52F7BAC0-B47E-4d28-83F7-B38C9A8AB52B}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="IUserPromptService"
+
+[$RootKey$\Services\{4E2E2126-C921-43a1-86F0-81B6B30ABC95}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="IErrorReportingService"
+
+[$RootKey$\Services\{b24bfd35-8c30-4b21-a5b7-ebd09845beab}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="IDesignerToolWindowService"
+
+[$RootKey$\Services\{0C0CD5F0-0744-4bc7-B800-553CABE7C6DA}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="IDesignerDebuggingService"
+
+[$RootKey$\Services\{E351DF41-0679-4731-A36D-9F61612E1C00}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="IEnvironmentService"
+
+[$RootKey$\Services\{785633AC-9EE9-4e28-A7E8-3089D7C23217}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="IDataSourceDescriptorService"
+
+[$RootKey$\Services\{A3F718DE-392A-4f2d-AA6E-7E858D08D6FD}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="IGlobalWindowEventsService"
+
+[$RootKey$\Services\{4a0c6509-bf90-43da-abee-0aba3a8527f1}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Datawarehouse Designer font and colors provider"
+
+[$RootKey$\CLSID\{0796D276-21B7-4092-9EAB-236AB427682E}]
+@="Microsoft.DataWarehouse.Project.CubeDebugger.CubeDebugEngine"
+"InprocServer32"="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Microsoft.DataWarehouse.Project.CubeDebugger.CubeDebugEngine"
+"Assembly"="Microsoft.AnalysisServices.Project, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\CLSID\{D3395FBA-8DE5-4E56-B82C-D4357588CD52}]
+@="Microsoft.AnalysisServices.Project.AnalysisServicesDeploymentPropertyPage"
+"InprocServer32"="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Microsoft.AnalysisServices.Project.AnalysisServicesDeploymentPropertyPage"
+"Assembly"="Microsoft.AnalysisServices.Project, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\CLSID\{073C1AB2-794F-4023-BCCB-184C5975D641}]
+@="Microsoft.DataWarehouse.Project.DebugPropertyPage"
+"InprocServer32"="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Microsoft.DataWarehouse.Project.DebugPropertyPage"
+"Assembly"="Microsoft.AnalysisServices.Project, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\CLSID\{22C4B999-18DD-4E61-AF4A-8C3292CCC926}]
+@="Microsoft.DataWarehouse.Project.DebugPropertyPage"
+"InprocServer32"="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Microsoft.AnalysisServices.Project.AnalysisServicesBuildPropertyPage"
+"Assembly"="Microsoft.AnalysisServices.Project, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\CLSID\{C70DDCC1-E6F5-40A3-A414-FF30A68B5EE7}]
+@="Microsoft.DataWarehouse.Project.DebugPropertyPage"
+"InprocServer32"="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="Microsoft.DataWarehouse.Project.DataSourceInfoPropertyPage"
+"Assembly"="Microsoft.AnalysisServices.Project, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\CLSID\{D8CB03CB-A124-4E7F-9EB2-788F351367A2}]
+@="SqlToolsVSHlpFactory Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\SqlToolsVSNativeHelpers.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\AD7Metrics\Engine\{0796D276-21B7-4092-9EAB-236AB427682E}]
+"CLSID"="{0796D276-21B7-4092-9EAB-236AB427682E}"
+
+[$RootKey$\ToolWindows\{6D52CEE1-A15C-42fd-8D30-FAACC8D1DD02}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Explore Data"
+"Style"="MDI"
+"Float"="100,500,200,400"
+
+[$RootKey$\ToolWindows\{6AF300FE-3221-4cea-973F-78FE829EB940}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Explore Data"
+"Style"="MDI"
+"Float"="100,500,200,400"
+
+[$RootKey$\ToolWindows\{8186008D-937F-47b9-AA24-73A410B59D9F}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Explore Data"
+"Style"="MDI"
+"Float"="100,500,200,400"
+
+[$RootKey$\ToolWindows\{B900BE87-629A-4b6b-8443-0EA2BD2C25A3}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Explore Data"
+"Style"="MDI"
+"Float"="100,500,200,400"
+
+[$RootKey$\ToolWindows\{C32474AA-3924-438c-B540-F2C0ECA23B71}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Explore Data"
+"Style"="MDI"
+"Float"="100,500,200,400"
+
+[$RootKey$\ToolWindows\{95E98DB2-9966-4171-8A11-B63A6781980D}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Explore Data"
+"Style"="MDI"
+"Float"="100,500,200,400"
+
+[$RootKey$\ToolWindows\{5AA3576A-9A4C-4bfe-BA07-6D149737FD9B}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Explore Data"
+"Style"="MDI"
+"Float"="100,500,200,400"
+
+[$RootKey$\ToolWindows\{DE669173-599C-43a3-BA18-D5277742F28E}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Explore Data"
+"Style"="MDI"
+"Float"="100,500,200,400"
+
+[$RootKey$\ToolWindows\{DFD4FBD3-E1F8-4706-A53C-7AD6C3388867}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Explore Data"
+"Style"="MDI"
+"Float"="100,500,200,400"
+
+[$RootKey$\ToolWindows\{DBE1F45C-8C9E-4895-A674-C59BDBB89795}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Explore Data"
+"Style"="MDI"
+"Float"="100,500,200,400"
+
+[$RootKey$\ToolWindows\{D6C02B84-73BF-440a-9E64-46A976FC4D04}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Drill Through"
+"Style"="Float"
+"Float"="400,300,800,600"
+
+[$RootKey$\ToolWindows\{9E715445-7840-4ecb-8EBB-AF46087E976A}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Mining Legend"
+"Style"="Tabbed"
+"Float"="400,300,800,600"
+"Orientation"="Bottom"
+"Window"="{1e78b085-1cb2-4a5c-8266-19edd983556c}"
+
+[$RootKey$\ToolWindows\{562A81AF-9A3C-4719-9900-0E1DE79ED292}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Mining Legend"
+"Style"="Tabbed"
+"Float"="400,300,800,600"
+"Orientation"="Bottom"
+"Window"="{1e78b085-1cb2-4a5c-8266-19edd983556c}"
+
+[$RootKey$\ToolWindows\{38F39CDA-18C2-421b-A178-51A670CD472E}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Mining Legend"
+"Style"="Tabbed"
+"Float"="400,300,800,600"
+"Orientation"="Bottom"
+"Window"="{1e78b085-1cb2-4a5c-8266-19edd983556c}"
+
+[$RootKey$\ToolWindows\{3F0D873B-DC33-4200-BCB2-A8CE5264F4B1}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Mining Legend"
+"Style"="Tabbed"
+"Float"="400,300,800,600"
+"Orientation"="Bottom"
+"Window"="{1e78b085-1cb2-4a5c-8266-19edd983556c}"
+
+[$RootKey$\ToolWindows\{E5C523BC-ABD9-439e-829C-7E33592A1284}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Multi-instance Analysis Services Deployment Progress Window"
+"ToolWindowFactory"="Microsoft.AnalysisServices.Project.Design.ProcessWindowFactory, Microsoft.AnalysisServices.Project"
+"Float"="300,300,600,600"
+"Style"="Tabbed"
+"Orientation"="Right"
+"Window"="{1E78B085-1CB2-4A5C-8266-19EDD983556C}"
+[$RootKey$\ToolWindows\{E5C523BC-ABD9-439e-829C-7E33592A1284}\Visibility]
+
+[$RootKey$\ToolWindows\{7CC9E714-2774-4fc6-8631-A07EEE703286}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Analysis Services Deployment Progress Window #1"
+"ToolWindowFactory"="Microsoft.AnalysisServices.Project.Design.ProcessWindowFactory, Microsoft.AnalysisServices.Project"
+"Float"="300,300,600,600"
+"Style"="Tabbed"
+"Orientation"="Right"
+"Window"="{1E78B085-1CB2-4A5C-8266-19EDD983556C}"
+[$RootKey$\ToolWindows\{7CC9E714-2774-4fc6-8631-A07EEE703286}\Visibility]
+
+[$RootKey$\ToolWindows\{9581C61E-D79D-4147-BCD4-874E34B49128}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Analysis Services Deployment Progress Window #2"
+"ToolWindowFactory"="Microsoft.AnalysisServices.Project.Design.ProcessWindowFactory, Microsoft.AnalysisServices.Project"
+"Float"="300,300,600,600"
+"Style"="Tabbed"
+"Orientation"="Right"
+"Window"="{1E78B085-1CB2-4A5C-8266-19EDD983556C}"
+[$RootKey$\ToolWindows\{9581C61E-D79D-4147-BCD4-874E34B49128}\Visibility]
+
+[$RootKey$\ToolWindows\{7518FE6B-309E-4163-B846-991218C73724}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Analysis Services Deployment Progress Window #3"
+"ToolWindowFactory"="Microsoft.AnalysisServices.Project.Design.ProcessWindowFactory, Microsoft.AnalysisServices.Project"
+"Float"="300,300,600,600"
+"Style"="Tabbed"
+"Orientation"="Right"
+"Window"="{1E78B085-1CB2-4A5C-8266-19EDD983556C}"
+[$RootKey$\ToolWindows\{7518FE6B-309E-4163-B846-991218C73724}\Visibility]
+
+[$RootKey$\ToolWindows\{79C02596-8D6B-4b41-90A3-60ED6CB28734}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Analysis Services Deployment Progress Window #4"
+"ToolWindowFactory"="Microsoft.AnalysisServices.Project.Design.ProcessWindowFactory, Microsoft.AnalysisServices.Project"
+"Float"="300,300,600,600"
+"Style"="Tabbed"
+"Orientation"="Right"
+"Window"="{1E78B085-1CB2-4A5C-8266-19EDD983556C}"
+[$RootKey$\ToolWindows\{79C02596-8D6B-4b41-90A3-60ED6CB28734}\Visibility]
+
+[$RootKey$\ToolWindows\{400730B9-9A3E-4178-A3D4-3ABE3F601341}]
+@="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Name"="Analysis Services Deployment Progress Window #5"
+"ToolWindowFactory"="Microsoft.AnalysisServices.Project.Design.ProcessWindowFactory, Microsoft.AnalysisServices.Project"
+"Float"="300,300,600,600"
+"Style"="Tabbed"
+"Orientation"="Right"
+"Window"="{1E78B085-1CB2-4A5C-8266-19EDD983556C}"
+[$RootKey$\ToolWindows\{400730B9-9A3E-4178-A3D4-3ABE3F601341}\Visibility]
+
+[$RootKey$\SetupTest]
+"AnalysisServicesProject"=dword:00000001
+"AnalysisServicesOnline"=dword:00000001
+"DataTransformationServicesOnline"=dword:00000001
+
+[$RootKey$\Languages\File Extensions\.cube]
+@="{B1AABE06-845A-4c56-9144-AA6FDB7D390D}"
+
+[$RootKey$\Languages\File Extensions\.dim]
+@="{B1AABE06-845A-4c56-9144-AA6FDB7D390D}"
+
+[$RootKey$\Languages\File Extensions\.dmm]
+@="{B1AABE06-845A-4c56-9144-AA6FDB7D390D}"
+
+[$RootKey$\Languages\File Extensions\.ds]
+@="{B1AABE06-845A-4c56-9144-AA6FDB7D390D}"
+
+[$RootKey$\Languages\File Extensions\.dsv]
+@="{B1AABE06-845A-4c56-9144-AA6FDB7D390D}"
+
+[$RootKey$\Languages\File Extensions\.partitions]
+@="{B1AABE06-845A-4c56-9144-AA6FDB7D390D}"
+
+[$RootKey$\Languages\File Extensions\.database]
+@="{B1AABE06-845A-4c56-9144-AA6FDB7D390D}"
+
+[$RootKey$\Languages\File Extensions\.role]
+@="{B1AABE06-845A-4c56-9144-AA6FDB7D390D}"
+
+[$RootKey$\ToolsOptionsPages\Designers]
+"Package"="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+
+[$RootKey$\ToolsOptionsPages\Designers\Analysis Services Designers]
+@="#611"
+"Package"="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+
+[$RootKey$\ToolsOptionsPages\Designers\Analysis Services Designers\General]
+@="#621"
+"Package"="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Page"="{F7FD30E6-BC59-411e-A889-878D33644B54}"
+"Type"="Microsoft.AnalysisServices.Project.Design.ReducedDataWarehouseOptionPage, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+"PageName"="General"
+
+[$RootKey$\ToolsOptionsPages\Designers\Analysis Services Designers\Data Mining Viewers]
+@="#622"
+"Package"="{4a0c6509-bf90-43da-abee-0aba3a8527f1}"
+"Page"="{462AD575-2E26-49ec-9883-58FA0B9FFCFB}"
+"Type"="Microsoft.AnalysisServices.Project.Design.DataMiningViewersOptionPage, Microsoft.AnalysisServices.Project, PublicKeyToken=89845dcd8080cc91"
+"PageName"="Data Mining Viewers"
+
+
+[$RootKey$\.dwproj]
+@="AnalysisServices.Project"
+
+[$RootKey$\.asproj]
+@="AnalysisServices.Project"
+
+[$RootKey$\AnalysisServices.Project]
+@="Analysis Services Project file"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+
+[$RootKey$\AnalysisServices.Project\shell]
+@="Open"
+
+[$RootKey$\AnalysisServices.Project\shell\Open]
+"command"="$RootFolder$\Common7\IDE\ssms.exe"
+
+[$RootKey$\.asdatabase]
+@="AnalysisServices.Deployment.Database"
+
+[$RootKey$\AnalysisServices.Deployment.Database]
+@="Analysis Services Database Deployment Contents"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.configsettings]
+@="AnalysisServices.Deployment.ConfigurationSettings"
+
+[$RootKey$\AnalysisServices.Deployment.ConfigurationSettings]
+@="Analysis Services Database Deployment Configuration Settings"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.deploymentoptions]
+@="AnalysisServices.Deployment.DeploymentOptions"
+
+[$RootKey$\AnalysisServices.Deployment.DeploymentOptions]
+@="Analysis Services Database Deployment Options"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.deploymenttargets]
+@="AnalysisServices.Deployment.Targets"
+
+[$RootKey$\AnalysisServices.Deployment.Targets]
+@="Analysis Services Database Deployment Targets"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.assecurityinformation]
+@="AnalysisServices.Deployment.SecurityInformation"
+
+[$RootKey$\AnalysisServices.Deployment.SecurityInformation]
+@="Analysis Services Database"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.ds]
+@="AnalysisServices.DataSource"
+
+[$RootKey$\AnalysisServices.DataSource]
+@="Analysis Services Data Source"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.dsv]
+@="AnalysisServices.DataSourceView"
+
+[$RootKey$\AnalysisServices.DataSourceView]
+@="Analysis Services Data Source View"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.dim]
+@="AnalysisServices.Dimension"
+
+[$RootKey$\AnalysisServices.Dimension]
+@="Analysis Services Dimension"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.cube]
+@="AnalysisServices.Cube"
+
+[$RootKey$\AnalysisServices.Cube]
+@="Analysis Services Cube"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.dmm]
+@="AnalysisServices.MiningStructure"
+
+[$RootKey$\AnalysisServices.MiningStructure]
+@="Analysis Services Mining Structure"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.role]
+@="AnalysisServices.Role"
+
+[$RootKey$\AnalysisServices.Role]
+@="Analysis Services Role"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.partitions]
+@="AnalysisServices.Partitions"
+
+[$RootKey$\AnalysisServices.Partitions]
+@="Analysis Services Partitions"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\.database]
+@="AnalysisServices.Database"
+
+[$RootKey$\AnalysisServices.Database]
+@="Analysis Services Database"
+"DefaultIcon"="$PackageFolder$\Microsoft.AnalysisServices.Project.dll,-107"
+"NoOpen"=""
+
+[$RootKey$\IntegrationServices.Package.110\Shell]
+@="Open"
+
+[$RootKey$\IntegrationServices.Package.110\Shell\Open]
+"command"=""$RootFolder$\Common7\IDE\DtExecUI.exe" /F "%%L""

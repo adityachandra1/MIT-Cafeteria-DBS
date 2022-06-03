@@ -1,0 +1,35 @@
+﻿[$RootKey$\InstalledProducts\ThreatDetectionPackage]
+@="#110"
+"Package"="{01069CDD-95CE-4620-AC21-DDFF6C57F012}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{01069CDD-95CE-4620-AC21-DDFF6C57F012}]
+@="Microsoft.SqlServer.Management.ThreatDetection.ThreatDetectionPackage, Microsoft.SqlServer.Management.ThreatDetection, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.ThreatDetection.ThreatDetectionPackage"
+"Assembly"="Microsoft.SqlServer.Management.ThreatDetection, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\AutoLoadPackages\{ADFC4E64-0397-11D1-9F4E-00A0C911004F}]
+"{01069CDD-95CE-4620-AC21-DDFF6C57F012}"=dword:00000000
+
+[$RootKey$\Menus]
+"{01069CDD-95CE-4620-AC21-DDFF6C57F012}"=", Menus.ctmenu, 1"
+
+[$RootKey$\Services\{38105AF5-4DBE-40E5-B0EF-B62C61248373}]
+@="{01069CDD-95CE-4620-AC21-DDFF6C57F012}"
+"Name"="VulnerabilityAssessmentWindowService"
+
+[$RootKey$\Services\{95a46c63-4d57-49c2-b49d-0b66be4d77a7}]
+@="{01069cdd-95ce-4620-ac21-ddff6c57f012}"
+"Name"="DataClassificationWindowService"
+
+[$RootKey$\ToolWindows\{C30E796D-DDD0-36D2-9210-881364442C86}]
+@="{01069CDD-95CE-4620-AC21-DDFF6C57F012}"
+"Name"="Microsoft.SqlServer.Management.ThreatDetection.VulnerabilityAssessment.VulnerabilityAssessmentScanResultPane"
+"Style"="MDI"
+
+[$RootKey$\ToolWindows\{e1989077-4c00-4d80-99c7-25932d7ffd82}]
+@="{01069cdd-95ce-4620-ac21-ddff6c57f012}"
+"Name"="Microsoft.SqlServer.Management.ThreatDetection.DataClassification.DataClassificationPane"
+"Style"="MDI"

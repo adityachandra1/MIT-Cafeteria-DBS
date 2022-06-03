@@ -1,0 +1,13 @@
+[$RootKey$\InstalledProducts\QuickLaunchTasksPackage]
+@="Quick Launch Tasks Package"
+"Package"="{6C9FCEF2-2C42-43D3-84F5-1981086807D5}"
+
+[$RootKey$\Packages\{6C9FCEF2-2C42-43D3-84F5-1981086807D5}]
+@="Microsoft.SqlServer.Management.QuickLaunchTasks.QuickLaunchTasksPackage, Microsoft.SqlServer.Management.QuickLaunchTasks, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.QuickLaunchTasks.QuickLaunchTasksPackage"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.QuickLaunchTasks.dll"
+
+[$RootKey$\SearchProviders\{1F29847B-341F-441F-BCB8-67D0249EB2E7}]
+@="Quick Launch Tasks Search Provider"
+"Package"="{6C9FCEF2-2C42-43D3-84F5-1981086807D5}"

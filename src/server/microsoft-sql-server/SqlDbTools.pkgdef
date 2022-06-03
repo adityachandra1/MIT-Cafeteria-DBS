@@ -1,0 +1,679 @@
+[$RootKey$\Services\{C7357596-B5D8-459A-B077-3DB0F7673F20}]
+@="{88E25AE9-E955-48CA-94B8-08A1FC8F62BD}"
+"Name"="Database Designer font and colors provider"
+
+
+
+[$RootKey$\Services\{A95415EF-2973-459E-9157-D18A1FFB9361}]
+@="{88E25AE9-E955-48CA-94B8-08A1FC8F62BD}"
+"Name"="DBToolsOptionProvider"
+
+
+
+[$RootKey$\Services\{80CBF734-E2D2-4A65-9781-4070D3F2D0E7}]
+@="{3E1C9C99-144C-4CB6-B8CD-5D5848A24922}"
+"Name"="OLE DB Provider Object Factory"
+
+
+
+[$RootKey$\Services\{AEBCB3F9-E21B-4CC9-930F-B66798DC9ADE}]
+@="{6D0C1C94-B349-4261-A7EC-8905E4098792}"
+"Name"="Data Tools Query Proxy Automation Factory"
+
+
+
+[$RootKey$\Services\{748F0B42-D2DB-4F6B-9109-7F2B09BB88EB}]
+@="{3E1C9C99-144C-4CB6-B8CD-5D5848A24922}"
+"Name"="DataSourceManager service"
+
+
+
+[$RootKey$\Services\{ECD08064-EC9F-4A5F-AF26-602554FCFF3A}]
+@="{3E1C9C99-144C-4CB6-B8CD-5D5848A24922}"
+"Name"="DataConnectionFactory service"
+
+
+
+[$RootKey$\Services\{5F4D15B9-085D-442B-85B0-7FD540D5D0D1}]
+@="{6D0C1C94-B349-4261-A7EC-8905E4098792}"
+"Name"="Data Tools Document Tool Factory Provider"
+
+
+
+[$RootKey$\Services\{6F0E6DAF-A47C-427F-965C-E35B4F5F0C21}]
+@="{88E25AE9-E955-48CA-94B8-08A1FC8F62BD}"
+"Name"="Query Designer font and colors provider"
+
+
+
+[$RootKey$\Services\{5C1157F5-C357-4EE3-8EE1-647681BCA78A}]
+@="{3E1C9C99-144C-4CB6-B8CD-5D5848A24922}"
+"Name"="SQL Server Provider Object Factory"
+
+
+
+[$RootKey$\Services\{DBEA4DAA-7549-472E-BB64-8653BF80CC4C}]
+@="{3E1C9C99-144C-4CB6-B8CD-5D5848A24922}"
+"Name"="Oracle Provider Object Factory"
+
+
+
+[$RootKey$\Services\{47A7DC06-AA63-43B4-8778-25AB78C962AF}]
+@="{88E25AE9-E955-48CA-94B8-08A1FC8F62BD}"
+"Name"="Data Tool Sql Editor Class"
+
+
+
+[$RootKey$\Services\{30FBB11F-D888-44E2-BBFB-B3445C92E1F3}]
+@="{3E1C9C99-144C-4CB6-B8CD-5D5848A24922}"
+"Name"="DataConnectionManager service"
+
+
+
+[$RootKey$\Services\{932F7CDC-83FE-4008-B874-74D8C292740C}]
+@="{6D0C1C94-B349-4261-A7EC-8905E4098792}"
+"Name"="SQL Server Assembly support"
+
+
+
+[$RootKey$\Services\{5016C73F-6607-48E5-AC61-C0F8ED4E143D}]
+@="{3E1C9C99-144C-4CB6-B8CD-5D5848A24922}"
+"Name"="DataConnectionDialogFactory service"
+
+
+
+[$RootKey$\Services\{E70A9533-D56E-48D1-B134-094EB489763A}]
+@="{3E1C9C99-144C-4CB6-B8CD-5D5848A24922}"
+"Name"="DataProviderManager service"
+
+
+
+[$RootKey$\Services\{FF55944B-CF7A-46D5-B3C4-0BE90432B577}]
+@="{3E1C9C99-144C-4CB6-B8CD-5D5848A24922}"
+"Name"="ODBC Provider Object Factory"
+
+
+
+[$RootKey$\Packages\{6D0C1C94-B349-4261-A7EC-8905E4098792}]
+@="Visual Studio Database Tools Designers"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+
+[$RootKey$\Packages\{6D0C1C94-B349-4261-A7EC-8905E4098792}\SatelliteDll]
+"DllName"="DataDesignersUI.dll"
+"Path"="$RootFolder$\Common7\IDE\Tools\VDT\"
+
+
+
+[$RootKey$\Packages\{3E1C9C99-144C-4CB6-B8CD-5D5848A24922}]
+@="Visual Studio Data Package"
+"InprocServer32"="mscoree.dll"
+"ThreadingModel"="Both"
+"Assembly"="Microsoft.SqlServer.Management.DataTools, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Class"="Microsoft.SqlServer.Management.DataTools.DataPackage"
+
+
+
+[$RootKey$\Packages\{4A5079C1-8551-4D1E-9262-FAB34815A9BB}]
+@="Visual Studio Data Designers"
+
+[$RootKey$\Packages\{4A5079C1-8551-4D1E-9262-FAB34815A9BB}\SatelliteDll]
+"DllName"="DataDesignersUI.dll"
+"Path"="$RootFolder$\Common7\IDE\Tools\VDT\"
+
+
+
+[$RootKey$\Packages\{88E25AE9-E955-48CA-94B8-08A1FC8F62BD}]
+@="Visual Database Tools Package"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataProjects.dll"
+
+[$RootKey$\Packages\{88E25AE9-E955-48CA-94B8-08A1FC8F62BD}\Automation]
+"DataService"=""
+
+[$RootKey$\Packages\{88E25AE9-E955-48CA-94B8-08A1FC8F62BD}\SatelliteDll]
+"Path"="$RootFolder$\Common7\IDE\Tools\VDT\"
+"DllName"="DataProjectsUI.dll"
+
+
+
+[$RootKey$\KeyBindingTables\{53F43BBD-B2F3-46BA-A85C-7D4718290D29}]
+@="#315"
+"AllowNavKeyBinding"=dword:00000000
+"Package"="{4A5079C1-8551-4D1E-9262-FAB34815A9BB}"
+
+
+
+[$RootKey$\KeyBindingTables\{E6AC6F69-B102-48DE-BE5F-002B18596BBF}]
+@="#314"
+"AllowNavKeyBinding"=dword:00000000
+"Package"="{4A5079C1-8551-4D1E-9262-FAB34815A9BB}"
+
+
+
+[$RootKey$\KeyBindingTables\{33941854-F604-48D5-97EF-7E538692D2FB}]
+@="#313"
+"AllowNavKeyBinding"=dword:00000000
+"Package"="{4A5079C1-8551-4D1E-9262-FAB34815A9BB}"
+
+
+
+[$RootKey$\KeyBindingTables\{A8FC853B-D6C6-4482-A279-9E74EA812B00}]
+@="#316"
+"AllowNavKeyBinding"=dword:00000000
+"Package"="{4A5079C1-8551-4D1E-9262-FAB34815A9BB}"
+
+
+
+[$RootKey$\FontAndColors\Sql View Designer]
+"Package"="{6F0E6DAF-A47C-427F-965C-E35B4F5F0C21}"
+"Category"="{01C8A117-0F63-4B1E-B3DA-5E3827807E92}"
+
+
+
+[$RootKey$\FontAndColors\Sql Database Designer]
+"Package"="{C7357596-B5D8-459A-B077-3DB0F7673F20}"
+"Category"="{512C50F5-90F5-4D31-97BC-8DAB8310F24C}"
+
+
+[$RootKey$\DataSources\{CE8405E7-3AED-43A6-9FDE-D57BE86C366B}]
+@="ODBC Data Source"
+
+[$RootKey$\DataSources\{CE8405E7-3AED-43A6-9FDE-D57BE86C366B}\SupportingProviders]
+
+[$RootKey$\DataSources\{CE8405E7-3AED-43A6-9FDE-D57BE86C366B}\SupportingProviders\{80CDEBB3-A723-4805-A608-DA67921522BC}]
+"DisplayName"="DataSource_MicrosoftOdbcDsn, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Description"="DataProvider_Odbc_DataSource_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+
+
+[$RootKey$\DataSources\{B7604FBB-BCA6-4909-A233-CC45127E77F7}]
+@="Microsoft Access Database File"
+"DefaultProvider"="{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}"
+
+[$RootKey$\DataSources\{B7604FBB-BCA6-4909-A233-CC45127E77F7}\SupportingProviders]
+
+[$RootKey$\DataSources\{B7604FBB-BCA6-4909-A233-CC45127E77F7}\SupportingProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}]
+"DisplayName"="DataSource_MicrosoftAccess, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Description"="DataProvider_OleDB_AccessDataSource_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"SpecializedProvider"="Microsoft.Jet.OLEDB.4.0"
+
+
+
+[$RootKey$\DataSources\{95C63E40-843B-44D9-AF45-C03DF08C2DD6}]
+@="Microsoft SQL Server"
+"DefaultProvider"="{1634CDD7-0888-42E3-9FA2-B6D32563B91D}"
+
+[$RootKey$\DataSources\{95C63E40-843B-44D9-AF45-C03DF08C2DD6}\SupportingProviders]
+
+[$RootKey$\DataSources\{95C63E40-843B-44D9-AF45-C03DF08C2DD6}\SupportingProviders\{1634CDD7-0888-42E3-9FA2-B6D32563B91D}]
+"DisplayName"="DataSource_MicrosoftSqlServer, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Description"="DataProvider_Sql_DataSource_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataSources\{95C63E40-843B-44D9-AF45-C03DF08C2DD6}\SupportingProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}]
+"Description"="DataProvider_OleDB_SqlDataSource_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"SpecializedProvider"="SQLOLEDB.1"
+
+
+
+[$RootKey$\DataSources\{53A7779C-FF18-488F-B6D2-33D82FAED8D0}]
+@="Microsoft SQL Server Database File"
+"DefaultProvider"="{1634CDD7-0888-42E3-9FA2-B6D32563B91D}"
+
+[$RootKey$\DataSources\{53A7779C-FF18-488F-B6D2-33D82FAED8D0}\SupportingProviders]
+
+[$RootKey$\DataSources\{53A7779C-FF18-488F-B6D2-33D82FAED8D0}\SupportingProviders\{1634CDD7-0888-42E3-9FA2-B6D32563B91D}]
+"DisplayName"="DataSource_MicrosoftSqlServerFile, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Description"="DataProvider_Sql_FileDataSource_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+
+
+[$RootKey$\DataSources\{06FE59AB-B003-471A-A6A6-6E06A8B4602C}]
+@="Oracle Database"
+"DefaultProvider"="{42DC8935-C487-4709-9963-0221EECE49F5}"
+
+[$RootKey$\DataSources\{06FE59AB-B003-471A-A6A6-6E06A8B4602C}\SupportingProviders]
+
+[$RootKey$\DataSources\{06FE59AB-B003-471A-A6A6-6E06A8B4602C}\SupportingProviders\{42DC8935-C487-4709-9963-0221EECE49F5}]
+"DisplayName"="DataSource_Oracle, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Description"="DataProvider_Oracle_DataSource_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataSources\{06FE59AB-B003-471A-A6A6-6E06A8B4602C}\SupportingProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}]
+"Description"="DataProvider_OleDB_OracleDataSource_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"SpecializedProvider"="MSDAORA.1"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}]
+@=".NET Framework Data Provider for OLE DB"
+"DisplayName"="DataProvider_OleDB, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"ShortDisplayName"="DataProvider_OleDB_Short, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Description"="DataProvider_OleDB_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Technology"="{77AB9A9D-78B9-4ba7-91AC-873F5338F1D2}"
+"FactoryService"="{80CBF734-E2D2-4A65-9781-4070D3F2D0E7}"
+"InvariantName"="System.Data.OleDb"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization]
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\Microsoft.Jet.OLEDB.4.0]
+"DataSource"="{B7604FBB-BCA6-4909-A233-CC45127E77F7}"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\Microsoft.Jet.OLEDB.4.0\DataConnectionPromptDialog]
+@="Microsoft.SqlServer.Management.DataTools.Providers.OleDB.OleDBJetConnectionPromptDialog, Microsoft.SqlServer.Management.DataTools, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\Microsoft.Jet.OLEDB.4.0\DataConnectionProperties]
+@="Microsoft.SqlServer.Management.ConnectionUI.OleDBAccessConnectionProperties, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\Microsoft.Jet.OLEDB.4.0\DataConnectionUIControl]
+@="Microsoft.SqlServer.Management.ConnectionUI.AccessConnectionUIControl, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\Microsoft.Jet.OLEDB.4.0\DataSourceInformation]
+@="Microsoft.SqlServer.Management.DataTools.Providers.OleDB.OleDBJetDataSourceInformation, Microsoft.SqlServer.Management.DataTools, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\MSDAORA.1]
+"DataSource"="{06FE59AB-B003-471A-A6A6-6E06A8B4602C}"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\MSDAORA.1\DataConnectionProperties]
+@="Microsoft.SqlServer.Management.ConnectionUI.OleDBOracleConnectionProperties, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\MSDAORA.1\DataConnectionUIControl]
+@="Microsoft.SqlServer.Management.ConnectionUI.OracleConnectionUIControl, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\MSDAORA.1\DataSourceInformation]
+@="Microsoft.SqlServer.Management.DataTools.Providers.OleDB.OleDBOracleDataSourceInformation, Microsoft.SqlServer.Management.DataTools, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\SQLNCLI.1]
+"DataSource"="{95C63E40-843B-44D9-AF45-C03DF08C2DD6}"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\SQLNCLI.1\DataConnectionProperties]
+@="Microsoft.SqlServer.Management.ConnectionUI.OleDBSqlConnectionProperties, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\SQLNCLI.1\DataConnectionUIControl]
+@="Microsoft.SqlServer.Management.ConnectionUI.SqlConnectionUIControl, Microsoft.SqlServer.Management.ConnectionUI.Dialog, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\SQLNCLI.1\DataSourceInformation]
+@="Microsoft.SqlServer.Management.DataTools.Providers.OleDB.OleDBSqlDataSourceInformation, Microsoft.SqlServer.Management.DataTools, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\SQLOLEDB.1]
+"DataSource"="{95C63E40-843B-44D9-AF45-C03DF08C2DD6}"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\SQLOLEDB.1\DataConnectionProperties]
+@="Microsoft.SqlServer.Management.ConnectionUI.OleDBSqlConnectionProperties, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\SQLOLEDB.1\DataConnectionUIControl]
+@="Microsoft.SqlServer.Management.ConnectionUI.SqlConnectionUIControl, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\SQLOLEDB.1\DataSourceInformation]
+@="Microsoft.SqlServer.Management.DataTools.Providers.OleDB.OleDBSqlDataSourceInformation, Microsoft.SqlServer.Management.DataTools, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\VFPOLEDB.1]
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\Specialization\VFPOLEDB.1\DataSourceInformation]
+@="Microsoft.SqlServer.Management.DataTools.Providers.OleDB.OleDBFoxDataSourceInformation, Microsoft.SqlServer.Management.DataTools, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\SupportedObjects]
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\SupportedObjects\DataConnectionPromptDialog]
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\SupportedObjects\DataConnectionPromptDialog\{B7604FBB-BCA6-4909-A233-CC45127E77F7}]
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\SupportedObjects\DataConnectionProperties]
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\SupportedObjects\DataConnectionSupport]
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\SupportedObjects\DataConnectionUIControl]
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\SupportedObjects\DataObjectSupport]
+
+[$RootKey$\DataProviders\{BC4EC59E-CA26-4242-BAAE-850F8FAD0D07}\SupportedObjects\DataSourceSpecializer]
+
+
+
+[$RootKey$\DataProviders\{80CDEBB3-A723-4805-A608-DA67921522BC}]
+@=".NET Framework Data Provider for ODBC"
+"DisplayName"="DataProvider_Odbc, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"ShortDisplayName"="DataProvider_Odbc_Short, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Description"="DataProvider_Odbc_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Technology"="{77AB9A9D-78B9-4ba7-91AC-873F5338F1D2}"
+"FactoryService"="{FF55944B-CF7A-46D5-B3C4-0BE90432B577}"
+"InvariantName"="System.Data.Odbc"
+
+[$RootKey$\DataProviders\{80CDEBB3-A723-4805-A608-DA67921522BC}\SupportedObjects]
+
+[$RootKey$\DataProviders\{80CDEBB3-A723-4805-A608-DA67921522BC}\SupportedObjects\DataConnectionPromptDialog]
+
+[$RootKey$\DataProviders\{80CDEBB3-A723-4805-A608-DA67921522BC}\SupportedObjects\DataConnectionProperties]
+
+[$RootKey$\DataProviders\{80CDEBB3-A723-4805-A608-DA67921522BC}\SupportedObjects\DataConnectionSupport]
+
+[$RootKey$\DataProviders\{80CDEBB3-A723-4805-A608-DA67921522BC}\SupportedObjects\DataConnectionUIControl]
+
+[$RootKey$\DataProviders\{80CDEBB3-A723-4805-A608-DA67921522BC}\SupportedObjects\DataObjectSupport]
+
+[$RootKey$\DataProviders\{80CDEBB3-A723-4805-A608-DA67921522BC}\SupportedObjects\DataSourceSpecializer]
+
+
+
+[$RootKey$\DataProviders\{42DC8935-C487-4709-9963-0221EECE49F5}]
+@=".NET Framework Data Provider for Oracle"
+"DisplayName"="DataProvider_Oracle, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"ShortDisplayName"="DataProvider_Oracle_Short, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Description"="DataProvider_Oracle_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Technology"="{77AB9A9D-78B9-4ba7-91AC-873F5338F1D2}"
+"FactoryService"="{DBEA4DAA-7549-472E-BB64-8653BF80CC4C}"
+"InvariantName"="System.Data.OracleClient"
+
+[$RootKey$\DataProviders\{42DC8935-C487-4709-9963-0221EECE49F5}\SupportedObjects]
+
+[$RootKey$\DataProviders\{42DC8935-C487-4709-9963-0221EECE49F5}\SupportedObjects\DataConnectionPromptDialog]
+
+[$RootKey$\DataProviders\{42DC8935-C487-4709-9963-0221EECE49F5}\SupportedObjects\DataConnectionProperties]
+
+[$RootKey$\DataProviders\{42DC8935-C487-4709-9963-0221EECE49F5}\SupportedObjects\DataConnectionSupport]
+
+[$RootKey$\DataProviders\{42DC8935-C487-4709-9963-0221EECE49F5}\SupportedObjects\DataConnectionUIControl]
+
+[$RootKey$\DataProviders\{42DC8935-C487-4709-9963-0221EECE49F5}\SupportedObjects\DataObjectSupport]
+
+[$RootKey$\DataProviders\{42DC8935-C487-4709-9963-0221EECE49F5}\SupportedObjects\DataSourceSpecializer]
+
+
+
+[$RootKey$\DataProviders\{1634CDD7-0888-42E3-9FA2-B6D32563B91D}]
+@=".NET Framework Data Provider for SQL Server"
+"DisplayName"="DataProvider_Sql, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"ShortDisplayName"="DataProvider_Sql_Short, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Description"="DataProvider_Sql_Description, SR, Microsoft.SqlServer.Management.ConnectionUI.Dialog, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Technology"="{77AB9A9D-78B9-4ba7-91AC-873F5338F1D2}"
+"FactoryService"="{5C1157F5-C357-4EE3-8EE1-647681BCA78A}"
+"InvariantName"="System.Data.SqlClient"
+
+[$RootKey$\DataProviders\{1634CDD7-0888-42E3-9FA2-B6D32563B91D}\SupportedObjects]
+
+[$RootKey$\DataProviders\{1634CDD7-0888-42E3-9FA2-B6D32563B91D}\SupportedObjects\DataConnectionPromptDialog]
+
+[$RootKey$\DataProviders\{1634CDD7-0888-42E3-9FA2-B6D32563B91D}\SupportedObjects\DataConnectionProperties]
+
+[$RootKey$\DataProviders\{1634CDD7-0888-42E3-9FA2-B6D32563B91D}\SupportedObjects\DataConnectionSupport]
+
+[$RootKey$\DataProviders\{1634CDD7-0888-42E3-9FA2-B6D32563B91D}\SupportedObjects\DataConnectionUIControl]
+
+[$RootKey$\DataProviders\{1634CDD7-0888-42E3-9FA2-B6D32563B91D}\SupportedObjects\DataObjectSupport]
+
+[$RootKey$\DataProviders\{1634CDD7-0888-42E3-9FA2-B6D32563B91D}\SupportedObjects\DataSourceSpecializer]
+
+
+
+[$RootKey$\CLSID\{04DBB748-6698-4EA5-BB8D-71B36D53D0B0}]
+@="MDT OleUndoManager Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+
+
+[$RootKey$\CLSID\{D069B23C-99BC-442F-97C7-F22AAE3A8022}]
+@="CQryAutoParameter Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{D069B23C-99BC-442F-97C7-F22AAE3A8022}\Programmable]
+
+[$RootKey$\CLSID\{D069B23C-99BC-442F-97C7-F22AAE3A8022}\TypeLib]
+@="{8d7902be-835f-42b9-aff4-222660d45ea4}"
+
+
+
+[$RootKey$\CLSID\{FC6399D2-2739-43A3-95B9-ED0F07F6D628}]
+@="CQryAutoParameterCollection Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{FC6399D2-2739-43A3-95B9-ED0F07F6D628}\Programmable]
+
+[$RootKey$\CLSID\{FC6399D2-2739-43A3-95B9-ED0F07F6D628}\TypeLib]
+@="{8d7902be-835f-42b9-aff4-222660d45ea4}"
+
+
+
+[$RootKey$\CLSID\{623AC075-2C77-4873-883D-930B4364B4BC}]
+@="MSVDTDDGridCtrl8 Object"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{623AC075-2C77-4873-883D-930B4364B4BC}\ControlMDTPrivate]
+
+[$RootKey$\CLSID\{623AC075-2C77-4873-883D-930B4364B4BC}\MiscStatus]
+@="0"
+
+[$RootKey$\CLSID\{623AC075-2C77-4873-883D-930B4364B4BC}\MiscStatus\1]
+@="131473"
+
+[$RootKey$\CLSID\{623AC075-2C77-4873-883D-930B4364B4BC}\ToolboxBitmap32]
+@="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll, 1"
+
+[$RootKey$\CLSID\{623AC075-2C77-4873-883D-930B4364B4BC}\Version]
+@="8.0"
+
+
+
+[$RootKey$\CLSID\{5D5B5762-73A8-49CB-8A76-C1A71B777513}]
+@="TrackSelection Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+
+
+[$RootKey$\CLSID\{B63474AB-E248-4A6D-B3BE-A976F534922C}]
+@="CQryAutoColsCollection Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{B63474AB-E248-4A6D-B3BE-A976F534922C}\Programmable]
+
+[$RootKey$\CLSID\{B63474AB-E248-4A6D-B3BE-A976F534922C}\TypeLib]
+@="{8d7902be-835f-42b9-aff4-222660d45ea4}"
+
+
+
+[$RootKey$\CLSID\{1CDED068-8503-4FCD-B7E9-8A0B58B4D709}]
+@="StreamWrapper Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{1CDED068-8503-4FCD-B7E9-8A0B58B4D709}\Programmable]
+
+
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}]
+@="Microsoft Visual Database Tools Query Designer V8.0"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\AuxUserType]
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\AuxUserType\2]
+@="MS VDT Query V8.0"
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\AuxUserType\3]
+@="Microsoft Visual Database Tools Query Designer V8.0"
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\DataFormats]
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\DataFormats\GetSet]
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\DataFormats\GetSet\0]
+@="3,1,32,1"
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\DataFormats\GetSet\2]
+@="Embed Source,1,8,3"
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\DefaultIcon]
+@="progman.exe,2"
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\MiscStatus]
+@="131072"
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\Verb]
+
+[$RootKey$\CLSID\{BADC3CB2-07EA-4E8D-BC19-35DF68AADD70}\Verb\0]
+@="&Play,0,2"
+
+
+
+[$RootKey$\CLSID\{5EA5D0AF-72AD-4D67-BC7B-7DD2FD581B91}]
+@="Microsoft Visual Database Tools DSRef Object"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+
+
+
+[$RootKey$\CLSID\{75051E11-2420-4294-A168-6327E54F2FFC}]
+@="Primer Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{75051E11-2420-4294-A168-6327E54F2FFC}\Programmable]
+
+
+
+[$RootKey$\CLSID\{30FB2D81-5376-4AD1-A111-ED71E3E34F58}]
+@="CQryAutoDSCollection Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{30FB2D81-5376-4AD1-A111-ED71E3E34F58}\Programmable]
+
+[$RootKey$\CLSID\{30FB2D81-5376-4AD1-A111-ED71E3E34F58}\TypeLib]
+@="{8d7902be-835f-42b9-aff4-222660d45ea4}"
+
+
+
+[$RootKey$\CLSID\{85FAB072-97FF-4C99-AC4B-9A576B63BDE8}]
+@="CQryAutoColumn Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{85FAB072-97FF-4C99-AC4B-9A576B63BDE8}\Programmable]
+
+[$RootKey$\CLSID\{85FAB072-97FF-4C99-AC4B-9A576B63BDE8}\TypeLib]
+@="{8d7902be-835f-42b9-aff4-222660d45ea4}"
+
+
+
+[$RootKey$\CLSID\{0DAF171D-28BC-45D3-8CC4-E91FD45320CE}]
+@="MSDTHostCtrl Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{0DAF171D-28BC-45D3-8CC4-E91FD45320CE}\Control]
+
+[$RootKey$\CLSID\{0DAF171D-28BC-45D3-8CC4-E91FD45320CE}\Insertable]
+
+[$RootKey$\CLSID\{0DAF171D-28BC-45D3-8CC4-E91FD45320CE}\MiscStatus]
+@="0"
+
+[$RootKey$\CLSID\{0DAF171D-28BC-45D3-8CC4-E91FD45320CE}\MiscStatus\1]
+@="131473"
+
+[$RootKey$\CLSID\{0DAF171D-28BC-45D3-8CC4-E91FD45320CE}\Programmable]
+
+[$RootKey$\CLSID\{0DAF171D-28BC-45D3-8CC4-E91FD45320CE}\ToolboxBitmap32]
+@="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll, 1"
+
+[$RootKey$\CLSID\{0DAF171D-28BC-45D3-8CC4-E91FD45320CE}\Version]
+@="8.0"
+
+
+
+[$RootKey$\CLSID\{0D3CE6EA-795A-44BB-901A-2CBA46109346}]
+@="Data Source Reference Builder class"
+"InprocServer32"="mscoree.dll"
+"ThreadingModel"="Both"
+"Assembly"="Microsoft.SqlServer.Management.Data, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Class"="Microsoft.SqlServer.Management.Data.DSRefBuilder"
+
+
+
+[$RootKey$\CLSID\{81705F9B-304F-4C61-B896-E131F10B7EB7}]
+@="CQryAuto Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{81705F9B-304F-4C61-B896-E131F10B7EB7}\Programmable]
+
+
+
+[$RootKey$\CLSID\{211D059C-7C84-4B77-8771-A949027568EA}]
+@="DSRefWrapper Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{211D059C-7C84-4B77-8771-A949027568EA}\Programmable]
+
+
+
+[$RootKey$\CLSID\{D01C572B-4417-4351-BEA1-58540B1E1B45}]
+@="Microsoft Visual Database Tools Database Designer V8.0 Table Designer Column Property Page"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+
+
+
+[$RootKey$\CLSID\{CCBE6E39-DE15-428C-BD9A-08349A03F19A}]
+@="ADO .NET Object Enumerator class"
+"InprocServer32"="mscoree.dll"
+"ThreadingModel"="Both"
+"Assembly"="Microsoft.SqlServer.Management.Data, version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Class"="Microsoft.SqlServer.Management.Data.AdoDotNet.AdoDotNetObjectEnumerator"
+
+
+
+[$RootKey$\CLSID\{72F8021B-4DFD-49D0-A2A9-5B97FCF8A79D}]
+@="Microsoft Visual Database Tools Database Designer V8.0"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+
+[$RootKey$\CLSID\{72F8021B-4DFD-49D0-A2A9-5B97FCF8A79D}\AuxUserType]
+
+[$RootKey$\CLSID\{72F8021B-4DFD-49D0-A2A9-5B97FCF8A79D}\AuxUserType\2]
+@="MSVDTDB Designer 8.0"
+
+[$RootKey$\CLSID\{72F8021B-4DFD-49D0-A2A9-5B97FCF8A79D}\AuxUserType\3]
+@="Microsoft Visual Database Tools Database Designer V8.0"
+
+[$RootKey$\CLSID\{72F8021B-4DFD-49D0-A2A9-5B97FCF8A79D}\MiscStatus]
+@="131072"
+
+
+
+[$RootKey$\CLSID\{6A67A707-5751-4884-B225-B219367F08FE}]
+@="Managed Data Tools Class Activator Class"
+"InprocServer32"="mscoree.dll"
+"ThreadingModel"="Both"
+"Assembly"="Microsoft.SqlServer.Management.DataTools, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"Class"="Microsoft.SqlServer.Management.DataTools.DTClassActivator"
+
+
+
+[$RootKey$\CLSID\{CF34C60C-12EC-4AB6-AD5B-40AA16E65332}]
+@="ADO .NET Root Object Enumerator class"
+"InprocServer32"="mscoree.dll"
+"ThreadingModel"="Both"
+"Assembly"="Microsoft.SqlServer.Management.Data, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91"
+"Class"="Microsoft.SqlServer.Management.Data.AdoDotNet.AdoDotNetRootObjectEnumerator"
+
+
+
+[$RootKey$\CLSID\{471E1E0C-1EB3-48A7-B86C-7F514B7F919C}]
+@="AUtoDataSource Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{471E1E0C-1EB3-48A7-B86C-7F514B7F919C}\Programmable]
+
+[$RootKey$\CLSID\{471E1E0C-1EB3-48A7-B86C-7F514B7F919C}\TypeLib]
+@="{8d7902be-835f-42b9-aff4-222660d45ea4}"
+
+
+
+[$RootKey$\CLSID\{6999FB26-0627-4F3E-BF61-D067985F76BB}]
+@="PrimerMgr Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\Tools\VDT\DataDesigners.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{6999FB26-0627-4F3E-BF61-D067985F76BB}\Programmable]
+
+[$RootKey$\Menus]
+"{4A5079C1-8551-4D1E-9262-FAB34815A9BB}"=", 541, 32"

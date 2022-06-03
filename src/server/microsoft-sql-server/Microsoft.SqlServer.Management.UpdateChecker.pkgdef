@@ -1,0 +1,16 @@
+﻿[$RootKey$\Packages\{a370bc08-51dd-4f09-8386-8f31e8704796}]
+@="Management Studio Update Checker"
+"Assembly"="Microsoft.SqlServer.Management.UpdateChecker, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"Class"="Microsoft.SqlServer.Management.UpdateChecker.UI.DataPackageProfile"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.UpdateChecker.dll"
+"CompanyName"="Microsoft Corporation"
+"ID"=dword:00000065
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"ProductName"="Microsoft SQL Server Management Studio, Update Checker"
+
+[$RootKey$\AutoLoadPackages]
+[$RootKey$\AutoLoadPackages\{ADFC4E64-0397-11D1-9F4E-00A0C911004F}]
+"{a370bc08-51dd-4f09-8386-8f31e8704796}"=dword:00000000
+
+[$RootKey$\Menus]
+"{a370bc08-51dd-4f09-8386-8f31e8704796}"=", Menus.ctmenu, 1"

@@ -1,0 +1,21 @@
+[$RootKey$\InstalledProducts\ReportsPackage]
+@="#110"
+"Package"="{42afedf1-fd05-435f-a0d8-2dd5c8e1e55f}"
+"PID"="1.0"
+"ProductDetails"="#102"
+"LogoID"="#400"
+[$RootKey$\Packages\{42afedf1-fd05-435f-a0d8-2dd5c8e1e55f}]
+@="Microsoft.SqlServer.Management.Reports.ReportsPackage, Microsoft.SqlServer.Management.Reports, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.Reports.ReportsPackage"
+"Assembly"="Microsoft.SqlServer.Management.Reports, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+[$RootKey$\Menus]
+"{42afedf1-fd05-435f-a0d8-2dd5c8e1e55f}"=", Menus.ctmenu, 1"
+[$RootKey$\Services\{eab0ff9c-d94a-4a6f-94c8-fad9321292cb}]
+@="{42afedf1-fd05-435f-a0d8-2dd5c8e1e55f}"
+"Name"="Reports Manager"
+[$RootKey$\ToolWindows\{956e1b22-878b-499b-ac5c-2705c05370ff}]
+@="{42afedf1-fd05-435f-a0d8-2dd5c8e1e55f}"
+"Name"="Microsoft.SqlServer.Management.Reports.ReportToolWindow"
+"Style"="MDI"
+

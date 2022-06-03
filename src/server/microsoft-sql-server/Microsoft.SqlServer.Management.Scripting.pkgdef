@@ -1,0 +1,17 @@
+[$RootKey$\InstalledProducts\Scripting]
+@="#110"
+"Package"="{f5b180c0-8e3f-43ce-b5c1-267b8a88d3cc}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{f5b180c0-8e3f-43ce-b5c1-267b8a88d3cc}]
+@="Microsoft.SqlServer.Management.Scripting.Scripting, Microsoft.SqlServer.Management.Scripting, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.Scripting.Scripting"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.Scripting.dll"
+[$RootKey$\Packages\{f5b180c0-8e3f-43ce-b5c1-267b8a88d3cc}\Automation]
+"SqlScriptingService"=""
+[$RootKey$\Services\{ca019366-3fd5-4f6b-83cb-ed6bfc418dbe}]
+@="{f5b180c0-8e3f-43ce-b5c1-267b8a88d3cc}"
+"Name"="Scripting Service"
+

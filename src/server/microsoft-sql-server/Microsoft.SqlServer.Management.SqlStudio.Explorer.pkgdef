@@ -1,0 +1,87 @@
+[$RootKey$\InstalledProducts\SqlStudioExplorer]
+@="#110"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{687b26ef-c096-4f2d-9f8c-aaafada321ac}]
+@="Microsoft.SqlServer.Management.SqlStudio.Explorer.SqlStudioExplorer, Microsoft.SqlServer.Management.SqlStudio.Explorer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.SqlStudio.Explorer.SqlStudioExplorer"
+"Assembly"="Microsoft.SqlServer.Management.SqlStudio.Explorer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+[$RootKey$\Packages\{687b26ef-c096-4f2d-9f8c-aaafada321ac}\Automation]
+"NavigationService"=""
+[$RootKey$\Packages\{687b26ef-c096-4f2d-9f8c-aaafada321ac}\Automation]
+"ObjectExplorerService"=""
+[$RootKey$\Menus]
+"{687b26ef-c096-4f2d-9f8c-aaafada321ac}"=", Menus.ctmenu, 1, $PackageFolder$\SSMSIconMappings.csv"
+[$RootKey$\ToolsOptionsPages\SQL Server Object Explorer]
+@="#114"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+[$RootKey$\ToolsOptionsPages\SQL Server Object Explorer\Commands]
+@="#116"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Page"="{35eaaf9c-6276-4464-b1a0-18223237fb38}"
+[$RootKey$\AutomationProperties\SQL Server Object Explorer\Commands]
+"Name"="SQL Server Object Explorer.Commands"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+[$RootKey$\ToolsOptionsPages\SQL Server Object Explorer]
+@="#114"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+[$RootKey$\ToolsOptionsPages\SQL Server Object Explorer\Scripting]
+@="#118"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Page"="{3e331d13-bcc1-46a4-b4eb-dfad21e8892a}"
+[$RootKey$\AutomationProperties\SQL Server Object Explorer\Scripting]
+"Name"="SQL Server Object Explorer.Scripting"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+[$RootKey$\ToolsOptionsPages\Azure Services]
+@="#200"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+[$RootKey$\ToolsOptionsPages\Azure Services\Azure Cloud]
+@="#202"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Page"="{710539b2-4efe-4c73-aa78-0f318952dfd4}"
+[$RootKey$\AutomationProperties\Azure Services\Azure Cloud]
+"Name"="Azure Services.Azure Cloud"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+[$RootKey$\ToolsOptionsPages\XE Profiler]
+@="#210"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+[$RootKey$\ToolsOptionsPages\XE Profiler\XE Profiler]
+@="#211"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Page"="{5ef834bc-3e2e-4a90-b8ff-8fafb054aad6}"
+[$RootKey$\AutomationProperties\XE Profiler\XE Profiler]
+"Name"="XeProfiler.XeProfiler"
+"Package"="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+[$RootKey$\Services\{759c2dc8-1ba1-334f-91e3-234a6f8e99c8}]
+@="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Name"="Execution Service"
+[$RootKey$\Services\{a71a7a36-7144-4876-a770-963c15e6a334}]
+@="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Name"="Explorer Context Service"
+[$RootKey$\Services\{8df262de-04dc-4a4e-80f2-b949add46b76}]
+@="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Name"="Navigation Service"
+[$RootKey$\Services\{1e66226b-de2b-4d4d-9f31-034c2282971f}]
+@="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Name"="Object Explorer Metadata"
+[$RootKey$\Services\{1989fcad-fedb-4c03-b71c-9b59e51f6a36}]
+@="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Name"="Object Explorer Notify ItemChanged Handler"
+[$RootKey$\Services\{26e139fb-2dd3-49c1-be58-3f8da45dba3a}]
+@="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Name"="Object Explorer Service"
+[$RootKey$\ToolWindows\{c5d6e9c3-367c-4403-a5f7-f6954f49d59b}]
+@="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Name"="Microsoft.SqlServer.Management.SqlStudio.Explorer.ObjectExplorerDetailsToolWindow"
+"Style"="MDI"
+"Float"="0, 0, 600, 400"
+[$RootKey$\ToolWindows\{d114938f-591c-46cf-a785-500a82d97410}]
+@="{687b26ef-c096-4f2d-9f8c-aaafada321ac}"
+"Name"="Microsoft.SqlServer.Management.SqlStudio.Explorer.ObjectExplorerToolWindow"
+"Orientation"="Left"
+"Style"="Tabbed"
+"Float"="0, 0, 300, 600"
+

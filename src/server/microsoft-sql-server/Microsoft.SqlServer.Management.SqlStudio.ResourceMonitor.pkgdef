@@ -1,0 +1,19 @@
+[$RootKey$\InstalledProducts\ResourceMonitor]
+@="#110"
+"Package"="{fe69699a-1722-4a3d-91ab-a448cdaeb62a}"
+"PID"="11.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{fe69699a-1722-4a3d-91ab-a448cdaeb62a}]
+@="Microsoft.SqlServer.Management.SqlStudio.ResourceMonitor.ResourceMonitorPackage, Microsoft.SqlServer.Management.SqlStudio.ResourceMonitor, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.SqlStudio.ResourceMonitor.ResourceMonitorPackage"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.SqlStudio.ResourceMonitor.dll"
+[$RootKey$\Menus]
+"{fe69699a-1722-4a3d-91ab-a448cdaeb62a}"=", Menus.ctmenu, 1"
+[$RootKey$\ToolWindows\{3eb44d79-dda1-4580-b810-0808975173e4}]
+@="{fe69699a-1722-4a3d-91ab-a448cdaeb62a}"
+"Name"="Microsoft.SqlServer.Management.SqlStudio.ResourceMonitor.ResourceMonitorToolWindow"
+"Style"="MDI"
+
+

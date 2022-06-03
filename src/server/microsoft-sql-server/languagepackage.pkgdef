@@ -1,0 +1,88 @@
+[$RootKey$\Packages\{e444c1dd-7c8e-4126-81c8-392c63bfebe3}]
+@="Language Package"
+"CompanyName"="microsoft corporation"
+"ID"=dword:00000065
+"InprocServer32"="$PackageFolder$\LanguagePackage.dll"
+"MinEdition"="standard"
+"Preload"=dword:00000000
+"ProductName"="language package"
+"ProductVersion"="9.0"
+
+[$RootKey$\Packages\{e444c1dd-7c8e-4126-81c8-392c63bfebe3}\SatelliteDll]
+"DllName"="LanguagePackage.rll"
+"Path"="$PackageFolder$"
+
+[$RootKey$\Languages\File Extensions\.mdx]
+@="{2D6FF84D-C3F6-48a0-9C7B-96F4958E92E8}"
+"Name"="MDX Language"
+
+[$RootKey$\Languages\File Extensions\.dmx]
+@="{CF4950E0-A768-455e-8CD0-E511BE028D4E}"
+"Name"="DMX Language"
+
+[$RootKey$\Languages\File Extensions\.xmla]
+@="{B1AABE06-845A-4c56-9144-AA6FDB7D390D}"
+"Name"="XMLA"
+
+[$RootKey$\Languages\Language Services\MDX]
+@="{2D6FF84D-C3F6-48a0-9C7B-96F4958E92E8}"
+"Default to Non Hot URLs"=dword:00000000
+"DefaultToInsertSpaces"=dword:00000000
+"EnableAdvancedMembersOption"=dword:00000000
+"LangResID"=dword:00000000
+"NotALanguage"=dword:00000001
+"Package"="{E444C1DD-7C8E-4126-81C8-392C63BFEBE3}"
+"RequestStockColors"=dword:00000000
+"ShowCompletion"=dword:00000000
+"ShowDropdownBarOption"=dword:00000000
+"ShowHotURLs"=dword:00000000
+"ShowSmartIndent"=dword:00000000
+"Single Code Window Only"=dword:00000001
+"Support CF_HTML"=dword:00000000
+
+[$RootKey$\Languages\Language Services\DMX]
+@="{CF4950E0-A768-455e-8CD0-E511BE028D4E}"
+"Default to Non Hot URLs"=dword:00000000
+"DefaultToInsertSpaces"=dword:00000000
+"EnableAdvancedMembersOption"=dword:00000000
+"LangResID"=dword:00000000
+"NotALanguage"=dword:00000001
+"Package"="{E444C1DD-7C8E-4126-81C8-392C63BFEBE3}"
+"RequestStockColors"=dword:00000000
+"ShowCompletion"=dword:00000000
+"ShowDropdownBarOption"=dword:00000000
+"ShowHotURLs"=dword:00000000
+"ShowSmartIndent"=dword:00000000
+"Single Code Window Only"=dword:00000001
+"Support CF_HTML"=dword:00000000
+
+[$RootKey$\Languages\Language Services\XMLA]
+@="{B1AABE06-845A-4c56-9144-AA6FDB7D390D}"
+"Default to Non Hot URLs"=dword:00000000
+"DefaultToInsertSpaces"=dword:00000000
+"EnableAdvancedMembersOption"=dword:00000000
+"LangResID"=dword:00000000
+"NotALanguage"=dword:00000001
+"Package"="{E444C1DD-7C8E-4126-81C8-392C63BFEBE3}"
+"RequestStockColors"=dword:00000000
+"ShowCompletion"=dword:00000000
+"ShowDropdownBarOption"=dword:00000000
+"ShowHotURLs"=dword:00000000
+"ShowSmartIndent"=dword:00000000
+"Single Code Window Only"=dword:00000001
+"Support CF_HTML"=dword:00000000
+
+[$RootKey$\InstalledProducts\LanguagePackage]
+"Package"="{E444C1DD-7C8E-4126-81C8-392C63BFEBE3}"
+
+[$RootKey$\Services\{2D6FF84D-C3F6-48a0-9C7B-96F4958E92E8}]
+@="{E444C1DD-7C8E-4126-81C8-392C63BFEBE3}"
+"Name"="MDX Language Service"
+
+[$RootKey$\Services\{CF4950E0-A768-455e-8CD0-E511BE028D4E}]
+@="{E444C1DD-7C8E-4126-81C8-392C63BFEBE3}"
+"Name"="DMX Language Service"
+
+[$RootKey$\Services\{B1AABE06-845A-4c56-9144-AA6FDB7D390D}]
+@="{E444C1DD-7C8E-4126-81C8-392C63BFEBE3}"
+"Name"="XMLA Language Service"

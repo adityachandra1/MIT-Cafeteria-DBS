@@ -1,0 +1,109 @@
+[$RootKey$\InstalledProducts\SqlStudio]
+@="#100"
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"PID"="1.0"
+"ProductDetails"="#102"
+"LogoID"="#400"
+[$RootKey$\Packages\{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}]
+@="Microsoft.SqlServer.Management.SqlStudio, Microsoft.SqlServer.Management.SqlStudio, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.SqlStudio"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.SqlStudio.dll"
+[$RootKey$\AutoLoadPackages\{adfc4e64-0397-11d1-9f4e-00a0c911004f}]
+"{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"=dword:00000000
+[$RootKey$\Packages\{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}\Automation]
+"CreateActionContext"=""
+[$RootKey$\Packages\{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}\Automation]
+"SqlRegistrationService"=""
+[$RootKey$\Packages\{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}\Automation]
+"SqlStudioHelpService"=""
+[$RootKey$\Packages\{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}\Automation]
+"TaskFormFactoryService"=""
+[$RootKey$\Packages\{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}\Automation]
+"TaskLauncherService"=""
+[$RootKey$\Menus]
+"{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"=", Menus.ctmenu, 1"
+[$RootKey$\ToolsOptionsPages\Environment]
+@="#0"
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+[$RootKey$\ToolsOptionsPages\Environment\Startup]
+@="#104"
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Page"="{a663947f-1f59-4a62-b56f-80770c9f4c19}"
+[$RootKey$\AutomationProperties\Environment\Startup]
+"Name"="Environment.Startup"
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+[$RootKey$\Services\{3f68ba77-75e9-488e-a0b4-8227df82463b}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="Factory Service"
+[$RootKey$\Services\{7c28a9f0-0a0e-485e-9699-f1b8aa04de60}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="Registration Service"
+[$RootKey$\Services\{ff6010ed-c1f0-3e91-9637-b0042b71c8e3}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="Resource Provider"
+[$RootKey$\Services\{44f2e234-982e-3e5a-aa82-711bfaf9041e}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="Running Task Forms Service"
+[$RootKey$\Services\{3448ff72-b072-435e-9059-29d89c0a3cd0}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="Sql Studio"
+[$RootKey$\Services\{87e628b8-94da-366f-b692-77d2085b1a8b}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="Sql Studio Help Service"
+[$RootKey$\Services\{1cc69c3d-afdd-3aba-9af1-87c5681ba5ed}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="Synchronize Invoke"
+[$RootKey$\Services\{cd130d5b-269b-4c38-a695-576b250ec613}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="Task Launcher Service"
+[$RootKey$\Services\{c45268a4-eb74-46cd-aaa3-7a14ba338a39}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="Task Management Service"
+[$RootKey$\Services\{a9e18ed5-2630-4c2a-a36a-af8329968d11}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="TaskForm Factory Service"
+[$RootKey$\InstalledProducts\TemplateBrowserPackage]
+@="#110"
+"Package"="{70aa6d64-1357-4652-a41d-2bd680b26946}"
+"PID"="1.0"
+"ProductDetails"="#102"
+"LogoID"="#400"
+[$RootKey$\Packages\{70aa6d64-1357-4652-a41d-2bd680b26946}]
+@="Microsoft.SqlServer.Management.TemplateBrowser.TemplateBrowserPackage, Microsoft.SqlServer.Management.SqlStudio, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.TemplateBrowser.TemplateBrowserPackage"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.SqlStudio.dll"
+[$RootKey$\Menus]
+"{70aa6d64-1357-4652-a41d-2bd680b26946}"=", TemplateBrowserMenus.ctmenu, 1"
+[$RootKey$\ToolWindows\{e01a3358-4577-42a1-a4a2-4667f21e1c72}]
+@="{70aa6d64-1357-4652-a41d-2bd680b26946}"
+"Name"="Microsoft.SqlServer.Management.TemplateBrowser.TemplateBrowserToolWindow"
+[$RootKey$\AppCommandLine\S]
+"Arguments"="1"
+"DemandLoad"=dword:00000000
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+[$RootKey$\AppCommandLine\D]
+"Arguments"="1"
+"DemandLoad"=dword:00000000
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+[$RootKey$\AppCommandLine\E]
+"Arguments"="0"
+"DemandLoad"=dword:00000000
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+[$RootKey$\AppCommandLine\G]
+"Arguments"="0"
+"DemandLoad"=dword:00000000
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+[$RootKey$\AppCommandLine\noConnect]
+"Arguments"="0"
+"DemandLoad"=dword:00000000
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+[$RootKey$\AppCommandLine\U]
+"Arguments"="1"
+"DemandLoad"=dword:00000000
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+[$RootKey$\AppCommandLine\P]
+"Arguments"="1"
+"DemandLoad"=dword:00000000
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"

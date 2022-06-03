@@ -1,0 +1,19 @@
+[$RootKey$\InstalledProducts\RegisteredServers]
+@="#100"
+"Package"="{1886ae28-9166-4759-8e1e-08c54dee6e7c}"
+"PID"="11.0"
+"ProductDetails"="#102"
+"LogoID"="#300"
+[$RootKey$\Packages\{1886ae28-9166-4759-8e1e-08c54dee6e7c}]
+@="Microsoft.SqlServer.Management.RegisteredServers.RegisteredServers, Microsoft.SqlServer.Management.RegisteredServersUI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.RegisteredServers.RegisteredServers"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.RegisteredServersUI.dll"
+[$RootKey$\Menus]
+"{1886ae28-9166-4759-8e1e-08c54dee6e7c}"=", Menus.ctmenu, 1"
+[$RootKey$\ToolWindows\{5550ce83-c8d3-4ff0-a63b-fca87d639dd5}]
+@="{1886ae28-9166-4759-8e1e-08c54dee6e7c}"
+"Name"="Microsoft.SqlServer.Management.RegisteredServers.RegisteredServersToolWindow"
+"Style"="Tabbed"
+"Window"="{d114938f-591c-46cf-a785-500a82d97410}"
+

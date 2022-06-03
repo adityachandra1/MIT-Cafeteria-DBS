@@ -1,0 +1,14 @@
+[$RootKey$\InstalledProducts\PbmUiPackage]
+@="#110"
+"Package"="{e08857e3-7b72-4955-bbc0-e67c56df8a45}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{e08857e3-7b72-4955-bbc0-e67c56df8a45}]
+@="Microsoft.SqlServer.Management.PbmUiPackage.PbmUiPackage, Microsoft.SqlServer.Management.PbmUiPackage, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.PbmUiPackage.PbmUiPackage"
+"CodeBase"="$PackageFolder$\Microsoft.SqlServer.Management.PbmUiPackage.dll"
+[$RootKey$\Menus]
+"{e08857e3-7b72-4955-bbc0-e67c56df8a45}"=", Menus.ctmenu, 1"
+

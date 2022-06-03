@@ -1,0 +1,55 @@
+[$RootKey$\InstalledProducts\QueryStoreUIPkg]
+@="#110"
+"Package"="{4bedd464-ec34-11e3-9f8a-82687f4fc15c}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{4bedd464-ec34-11e3-9f8a-82687f4fc15c}]
+@="Microsoft.SqlServer.Management.QueryStoreVS.QueryStoreUIPkg, Microsoft.SqlServer.Management.QueryStoreVS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.QueryStoreVS.QueryStoreUIPkg"
+"Assembly"="Microsoft.SqlServer.Management.QueryStoreVS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\Services\{e9125681-b153-4da2-9d7d-d5da1d340412}]
+@="{4bedd464-ec34-11e3-9f8a-82687f4fc15c}"
+"Name"="QueryStore UI"
+
+[$RootKey$\ToolWindows\{4aa68ce4-099d-42b9-b42b-bb327ef76a00}]
+@="{4bedd464-ec34-11e3-9f8a-82687f4fc15c}"
+"Name"="Regressed Queries Window"
+"Style"="MDI"
+
+[$RootKey$\ToolWindows\{d22d19a6-979b-452a-8d51-df3aac383aee}]
+@="{4bedd464-ec34-11e3-9f8a-82687f4fc15c}"
+"Name"="Improved Queries Window"
+"Style"="MDI"
+
+[$RootKey$\ToolWindows\{638c2816-f027-4b85-8dba-86cd1ab0b1dd}]
+@="{4bedd464-ec34-11e3-9f8a-82687f4fc15c}"
+"Name"="Top Resource Consumers Window"
+"Style"="MDI"
+
+[$RootKey$\ToolWindows\{c1e2f8ec-bfc1-49ca-a143-5e74e3c943ec}]
+@="{4bedd464-ec34-11e3-9f8a-82687f4fc15c}"
+"Name"="Tracked Queries Window"
+"Style"="MDI"
+
+[$RootKey$\ToolWindows\{418a0aad-a43d-475b-b7c6-834abd2186f5}]
+@="{4bedd464-ec34-11e3-9f8a-82687f4fc15c}"
+"Name"="Overall Resource Consumption Window"
+"Style"="MDI"
+
+[$RootKey$\ToolWindows\{ffc0b0d5-138c-4941-93fa-38ffd36da972}]
+@="{4bedd464-ec34-11e3-9f8a-82687f4fc15c}"
+"Name"="Forced Plan Queries Window"
+"Style"="MDI"
+
+[$RootKey$\ToolWindows\{947a2fd6-e56c-4082-a25e-49Cf8ca588de}]
+@="{4bedd464-ec34-11e3-9f8a-82687f4fc15c}"
+"Name"="High Variation Queries Window"
+"Style"="MDI"
+
+[$RootKey$\ToolWindows\{e3d5146f-ba99-41c8-895c-3d11a5483e7d}]
+@="{4bedd464-ec34-11e3-9f8a-82687f4fc15c}"
+"Name"="Query Wait Statistics Window"
+"Style"="MDI"

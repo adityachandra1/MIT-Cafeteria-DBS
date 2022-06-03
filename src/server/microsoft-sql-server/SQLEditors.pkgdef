@@ -1,0 +1,963 @@
+[$RootKey$\InstalledProducts\SqlEditorsPackage]
+@="Transact-Sql Editor"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Packages\{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}]
+@="Microsoft SQL Server Editors Package"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.UI.VSIntegration.Editors.EditorFactoryPackage"
+"Assembly"="SQLEditors, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+
+[$RootKey$\Menus]
+"{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"=", Menus.ctmenu, 1"
+
+[$RootKey$\Editors\{B5A506EB-11BE-4782-9A18-21265C2CA0B4}]
+@="SQL Query Editor"
+"DisplayName"="#1"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{B5A506EB-11BE-4782-9A18-21265C2CA0B4}\Extensions]
+"sql"=dword:00000032
+
+[$RootKey$\Editors\{B5A506EB-11BE-4782-9A18-21265C2CA0B4}\LogicalViews]
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+[$RootKey$\Editors\{C76E46D4-B7D7-42b8-9726-A98D8045B179}]
+@="SQL Query Editor with Encoding"
+"DisplayName"="#7"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{C76E46D4-B7D7-42b8-9726-A98D8045B179}\Extensions]
+"sql"=dword:00000032
+
+[$RootKey$\Editors\{C76E46D4-B7D7-42b8-9726-A98D8045B179}\LogicalViews]
+"{7651a703-06e5-11d1-8ebd-00a0c90f26ea}"=""
+
+[$RootKey$\Editors\{BD41288B-959E-41BC-9A56-1D1F232059D2}]
+@="Execution Plan Editor"
+"DisplayName"="#13"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{BD41288B-959E-41BC-9A56-1D1F232059D2}\Extensions]
+"sqlplan"=dword:00000032
+
+[$RootKey$\Editors\{BD41288B-959E-41BC-9A56-1D1F232059D2}\LogicalViews]
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+[$RootKey$\Editors\{1CEAF4C2-677D-456A-9BED-1AC73B989127}]
+@="MDX Query Editor"
+"DisplayName"="#2"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{1CEAF4C2-677D-456A-9BED-1AC73B989127}\Extensions]
+"mdx"=dword:00000033
+
+[$RootKey$\Editors\{1CEAF4C2-677D-456A-9BED-1AC73B989127}\LogicalViews]
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+[$RootKey$\Editors\{14A63023-F03C-4d14-8E8F-9D1E2D9325D0}]
+@="MDX Query Editor with Encoding"
+"DisplayName"="#8"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{14A63023-F03C-4d14-8E8F-9D1E2D9325D0}\Extensions]
+"mdx"=dword:00000032
+
+[$RootKey$\Editors\{14A63023-F03C-4d14-8E8F-9D1E2D9325D0}\LogicalViews]
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+
+[$RootKey$\Editors\{7B55DE85-B56C-4A92-A964-DF2032512683}]
+@="DAX Query Editor"
+"DisplayName"="#14"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{7B55DE85-B56C-4A92-A964-DF2032512683}\Extensions]
+"msdax"=dword:00000033
+
+[$RootKey$\Editors\{7B55DE85-B56C-4A92-A964-DF2032512683}\LogicalViews]
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+[$RootKey$\Editors\{ADBD55DE-75C9-41CC-9032-8389A12D5856}]
+@="DAX Query Editor with Encoding"
+"DisplayName"="#15"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{ADBD55DE-75C9-41CC-9032-8389A12D5856}\Extensions]
+"msdax"=dword:00000032
+
+[$RootKey$\Editors\{ADBD55DE-75C9-41CC-9032-8389A12D5856}\LogicalViews]
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+
+
+
+[$RootKey$\Editors\{A8AE89ED-34A0-489e-8A98-AEE7CEDEA6B7}]
+@="DMX Query Editor"
+"DisplayName"="#11"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{A8AE89ED-34A0-489e-8A98-AEE7CEDEA6B7}\Extensions]
+"dmx"=dword:00000032
+
+[$RootKey$\Editors\{A8AE89ED-34A0-489e-8A98-AEE7CEDEA6B7}\LogicalViews]
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+
+[$RootKey$\Editors\{F52E35C3-1150-4ed7-B0D9-5DBBF66D9F34}]
+@="DMX Query Editor with Encoding"
+"DisplayName"="#12"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{F52E35C3-1150-4ed7-B0D9-5DBBF66D9F34}\Extensions]
+"dmx"=dword:00000032
+
+[$RootKey$\Editors\{F52E35C3-1150-4ed7-B0D9-5DBBF66D9F34}\LogicalViews]
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+
+[$RootKey$\Editors\{B7DF28AE-C9A1-4263-A498-9897B98336A1}]
+@="XMLA Query Editor"
+"DisplayName"="#4"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{B7DF28AE-C9A1-4263-A498-9897B98336A1}\Extensions]
+"xml"=dword:0000001e
+"xmla"=dword:00000033
+
+[$RootKey$\Editors\{B7DF28AE-C9A1-4263-A498-9897B98336A1}\LogicalViews]
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+
+[$RootKey$\Editors\{7A94C22A-CEC2-4aff-B648-4C416370FC77}]
+@="XMLA Query Editor with Encoding"
+"DisplayName"="#9"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{7A94C22A-CEC2-4aff-B648-4C416370FC77}\Extensions]
+"xml"=dword:0000001d
+"xmla"=dword:00000032
+
+[$RootKey$\Editors\{7A94C22A-CEC2-4aff-B648-4C416370FC77}\LogicalViews]
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+[$RootKey$\Editors\{C1D6FA53-CCC1-4029-A3E8-942345F173D0}]
+@="Deadlock Editor"
+"DisplayName"="#6"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+
+[$RootKey$\Editors\{C1D6FA53-CCC1-4029-A3E8-942345F173D0}\Extensions]
+"xdl"=dword:00000032
+
+[$RootKey$\Editors\{C1D6FA53-CCC1-4029-A3E8-942345F173D0}\LogicalViews]
+"{7651A700-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A701-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A702-06E5-11D1-8EBD-00A0C90F26EA}"=""
+"{7651A703-06E5-11D1-8EBD-00A0C90F26EA}"=""
+
+[$RootKey$\CLSID\{D8CB03CB-A124-4E7F-9EB2-788F351367A2}]
+@="SqlToolsVSHlpFactory Class"
+"InprocServer32"="$RootFolder$\Common7\IDE\SqlToolsVSNativeHelpers.dll"
+"ThreadingModel"="Apartment"
+
+[$RootKey$\CLSID\{301DA414-9740-4960-9493-DA130DD13588}]
+@="Microsoft.SqlServer.Management.UI.VSIntegration.Editors.VirtualProject"
+[$RootKey$\CLSID\{301DA414-9740-4960-9493-DA130DD13588}\InprocServer32]
+@="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.Management.UI.VSIntegration.Editors.VirtualProject"
+"Assembly"="SQLEditors, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"ThreadingModel"="Both"
+"RuntimeVersion"="v2.0"
+
+[$RootKey$\Text Editor\External Markers\{454B4B0E-829F-4e1a-9BB9-118AEF41F8D6}]
+@="Error Message"
+"DisplayName"="Error"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"Service"="{A179EC84-21B0-4923-B1CF-7032F2AD72FA}"
+
+[$RootKey$\Services\{A179EC84-21B0-4923-B1CF-7032F2AD72FA}]
+@="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"Name"="SQL Marker Service"
+
+[$RootKey$\Text Editor\External Markers\{387D9BB6-2845-46f3-AC93-55EDC2DE7282}]
+@="Template Parameter"
+"DisplayName"="Template"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"Service"="{A179EC84-21B0-4923-B1CF-7032F2AD72FA}"
+
+[$RootKey$\Services\{6B309CD1-E17B-414a-8ABB-89FEEFF7AFB4}]
+@="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+"Name"="Script Factory Service"
+
+[$RootKey$\ToolsOptionsPages\Environment\Keyboard\General]
+"Package"="{DA9FB551-C724-11D0-AE1F-00A0C90FFFC3}"
+"Page"="{BAFF6A1A-0CF2-11D1-8C8D-0000F87570EE}"
+@="#13568"
+
+[$RootKey$\ToolsOptionsPages\Environment\Keyboard\Query Shortcuts]
+@="#4100"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{3D23B42C-CB9F-40c9-8A90-F2FA32226EED}"
+
+[$RootKey$\ToolsOptionsPages\Query Execution]
+@="#3120"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Sort"=dword:0000001e
+
+[$RootKey$\ToolsOptionsPages\Query Execution\Analysis Server]
+@="#3118"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Sort"=dword:00000002
+
+[$RootKey$\ToolsOptionsPages\Query Execution\Analysis Server\General]
+@="#3116"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{746D01A9-A817-4b21-865F-F98964C908AF}"
+
+[$RootKey$\ToolsOptionsPages\Query Execution\Sql Server]
+@="#3117"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Sort"=dword:00000001
+
+[$RootKey$\ToolsOptionsPages\Query Execution\Sql Server\Advanced]
+@="#3101"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{0404C455-C6D6-4639-AE00-2F451AECCF1E}"
+"Sort"=dword:00000002
+
+[$RootKey$\ToolsOptionsPages\Query Execution\Sql Server\Ansi]
+@="#3104"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{00E240FD-6BDD-49cc-9086-51FC23E8E8EA}"
+"Sort"=dword:00000003
+
+[$RootKey$\ToolsOptionsPages\Query Execution\Sql Server\General]
+@="#3102"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{DCA3AAC5-0AB0-425b-9047-BA60CB152E5A}"
+"Sort"=dword:00000001
+
+[$RootKey$\ToolsOptionsPages\Query Execution\Sql Server\Live Query Statistics]
+@="#3107"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{c515086c-9efe-4eed-9f42-75f98c879ab2}"
+"Sort"=dword:00000004
+
+[$RootKey$\ToolsOptionsPages\Query Results]
+@="#3119"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Sort"=dword:00000028
+
+[$RootKey$\ToolsOptionsPages\Query Results\Analysis Server]
+@="#3118"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Sort"=dword:00000002
+
+[$RootKey$\ToolsOptionsPages\Query Results\Analysis Server\General]
+@="#3116"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{8F93B1F7-FE0C-4dea-9B6A-A2A03E8AB41D}"
+
+[$RootKey$\ToolsOptionsPages\Query Results\Sql Server]
+@="#3117"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Sort"=dword:00000001
+
+[$RootKey$\ToolsOptionsPages\Query Results\Sql Server\Multiserver Results]
+@="#3125"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{935B2D6A-A6FC-4B46-A9E4-7E87EA4954C5}"
+"Sort"=dword:00000004
+
+[$RootKey$\ToolsOptionsPages\Query Results\Sql Server\General]
+@="#3116"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{04D7F91F-3BAD-4499-A338-154D17DA9828}"
+"Sort"=dword:00000001
+
+[$RootKey$\ToolsOptionsPages\Query Results\Sql Server\Results to Grid]
+@="#3111"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{88F58CDF-51E0-413b-B479-D4445D2BFAB7}"
+"Sort"=dword:00000002
+
+[$RootKey$\ToolsOptionsPages\Query Results\Sql Server\Results to Text]
+@="#3112"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{3A746056-82B8-4930-88E5-70A10C797481}"
+"Sort"=dword:00000003
+[$RootKey$\ToolsOptionsPages\Text Editor]
+@="#13022"
+"Package"="{F5E7E720-1401-11d1-883B-0000F87579D2}"
+"Sort"=dword:00000014
+
+[$RootKey$\ToolsOptionsPages\Text Editor\Editor Tab and StatusBar]
+@="#3126"
+"Package"="{4058755A-8FBE-41c7-BC99-3DBF5C74BA62}"
+"Page"="{62A13775-BED3-4428-A54C-3B9228BB144D}"
+
+[$RootKey$\ToolsOptionsPages\Text Editor\File Extension]
+@="#14645"
+"Page"="{AC11E8EB-15F8-432F-B13F-4AB8F56DA235}"
+"Package"="{F5E7E720-1401-11d1-883B-0000F87579D2}"
+"Sort"=dword:00000000
+
+[$RootKey$\FontAndColors\TextSQLResults]
+"Category"="{AD3737CA-26A1-47cb-A143-0EB0ECBC7FC9}"
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+
+[$RootKey$\FontAndColors\GridSQLResults]
+"Category"="{E6784B78-8552-41d7-9630-D1FDEE0DD8E2}"
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+
+[$RootKey$\FontAndColors\ExecutionPlan]
+"Category"="{90A03679-39CF-450f-A9E9-91DAADF17F38}"
+"Package"="{04401ff3-8b0f-4d2d-85eb-2a3542867a8b}"
+
+[$RootKey$\AD7Metrics\Engine\{1202F5B4-3522-4149-BAD8-58B2079D704F}]
+"CLSID"="{3B476D3A-A401-11D2-AAD4-00C04F990171}"
+"AlwaysLoadLocal"=dword:00000001
+"FunctionBP"=dword:00000001
+"HitCountBP"=dword:00000001
+"ConditionalBP"=dword:00000001
+"Attach"=dword:00000001
+"PortSupplier"="{708C1ECA-FF48-11D2-904F-00C04FA302A1}"
+"ProgramProvider"="{4FF9DEF4-8922-4D02-9379-3FFA64D1D639}"
+"AlwaysLoadProgramProviderLocal"=dword:00000001
+"RemoteDebugging"=dword:00000001
+"AutoSelectPriority"=dword:0000000a
+
+[$RootKey$\AD7Metrics\ExpressionEvaluator]
+
+[$RootKey$\AD7Metrics\ExpressionEvaluator\{3A12D0B9-C26C-11D0-B442-00A0244A1DD2}]
+
+[$RootKey$\AD7Metrics\ExpressionEvaluator\{3A12D0B9-C26C-11D0-B442-00A0244A1DD2}\{994B45C4-E6E9-11D2-903F-00C04FA302A1}]
+"Name"="Microsoft SQL"
+"Language"="Transact-SQL"
+
+[$RootKey$\AD7Metrics\ExpressionEvaluator\{3A12D0B9-C26C-11D0-B442-00A0244A1DD2}\{994B45C4-E6E9-11D2-903F-00C04FA302A1}\Engine]
+"0"="{1202F5B4-3522-4149-BAD8-58B2079D704F}"
+
+[$RootKey$\CLSID\{3B476D3A-A401-11D2-AAD4-00C04F990171}]
+@="SQL Debug Engine Class"
+"ThreadingModel"="Free"
+"InprocServer32"="$RootFolder$\Common7\IDE\sqlde.dll"
+
+[$RootKey$\CLSID\{4FF9DEF4-8922-4D02-9379-3FFA64D1D639}]
+@="CLSID_SDMProgramProvider"
+"ThreadingModel"="Apartment"
+"InprocServer32"="$ShellFolder$\Common7\Packages\Debugger\vsdebug.dll"
+
+[$RootKey$\CLSID\{5EB7D9F7-AF21-400E-A2C4-7FD6396F8641}]
+@="Session Debug Manager"
+"ThreadingModel"="Apartment"
+"InprocServer32"="$ShellFolder$\Common7\Packages\Debugger\vsdebug.dll"
+
+[$RootKey$\AppCommandLine]
+"ExeName"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"JitDebug"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\AppCommandLine\vs7jitdebugginghelp]
+"DemandLoad"=dword:00000000
+"HelpString"="#5078"
+"Arguments"="0"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\AutoLoadPackages\{F1536EF8-92EC-443C-9ED7-FDADF150DA82}]
+"{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"=dword:00000000
+
+[$RootKey$\AutomationProperties\TextEditor\ENC]
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Name"="ENC"
+
+[$RootKey$\AutomationProperties\TextEditor\Disassembly]
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Name"="Disassembly"
+
+[$RootKey$\AutomationProperties\TextEditor\Memory]
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Name"="Memory"
+
+[$RootKey$\AutomationProperties\TextEditor\Register]
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Name"="Register"
+
+[$RootKey$\CLSID\{C73A0EA1-B01C-4F62-ABA6-F553BD6893FC}]
+@="VSDebugFindSymPage"
+"ThreadingModel"="Apartment"
+"InprocServer32"="$ShellFolder$\Common7\Packages\Debugger\vsdebug.dll"
+
+[$RootKey$\CLSID\{5CEB3CEF-F536-428B-A798-D1A31C67167C}]
+@="VSDebugFindSourcePage"
+"ThreadingModel"="Apartment"
+"InprocServer32"="$ShellFolder$\Common7\Packages\Debugger\vsdebug.dll"
+
+[$RootKey$\HandleInComingCall\{037EDD0F-8551-4F7F-8CA0-04D9E29F532D}]
+@="IDebugDocumentPositionOffset2"
+
+[$RootKey$\HandleInComingCall\{0D0761B5-A36D-41E0-98CF-BBB8E6253B21}]
+@="IDebugRuntimeJITServerProvider2"
+
+[$RootKey$\HandleInComingCall\{1EDE3B4B-35E7-4B97-8133-02845D600174}]
+@="IDebugFunctionPosition2"
+
+[$RootKey$\HandleInComingCall\{33EC72E3-002F-4966-B91C-5CE2F7BA5124}]
+@="IDebugDocumentTextEvents2"
+
+[$RootKey$\HandleInComingCall\{34A1B216-39DA-4ACD-A372-F768D5A2466C}]
+@="IPrivateSession"
+
+[$RootKey$\HandleInComingCall\{564FA275-12E1-4B5F-8316-4D79BCEF7246}]
+@="IDebugPortEvents2"
+
+[$RootKey$\HandleInComingCall\{56B4E703-21A1-11D2-8FD6-00C04FA30000}]
+@="IDebugJIT2"
+
+[$RootKey$\HandleInComingCall\{6015FD18-8257-4DF3-AC42-F074DEDD4CBD}]
+@="IDebugBreakpointRequest2"
+
+[$RootKey$\HandleInComingCall\{8948300F-8BD5-4728-A1D8-83D172295A9D}]
+@="IDebugSession2"
+
+[$RootKey$\HandleInComingCall\{8D36BEB8-9BFE-47DD-A11B-7BA1DE18E449}]
+@="IDebugPortRequest2"
+
+[$RootKey$\HandleInComingCall\{A7A5CA45-3E53-46b8-9D9D-BA9CACE47A62}]
+@="IDebugPrivateSession2"
+
+[$RootKey$\HandleInComingCall\{A96ABCCC-C55B-44E4-8977-CD815EA33A58}]
+@="ISessionNotifySink2"
+
+[$RootKey$\HandleInComingCall\{ADE2EEB9-FC85-4F5B-B5D9-D431B4AAC31A}]
+@="IDebugEventCallback2"
+
+[$RootKey$\HandleInComingCall\{B2F73449-98EA-4866-90A0-425837FC5E23}]
+@="IDebugIDEJIT2"
+
+[$RootKey$\HandleInComingCall\{BDDE0EEE-3B8D-4C82-B529-33F16B42832E}]
+@="IDebugDocumentPosition2"
+
+[$RootKey$\HandleInComingCall\{C43CC2F3-90AF-4E93-9112-DFB8B36749B5}]
+@="INotifySink2"
+
+[$RootKey$\HandleInComingCall\{D0DEE0D5-3789-4A7B-9323-BB03FFFE90F7}]
+@="IPrivatePort"
+
+[$RootKey$\HandleInComingCall\{F239E580-DB73-11D0-938A-00A0C9034910}]
+@="ISqlDebugEvent"
+
+[$RootKey$\HandleInComingCall\{F239E584-DB73-11D0-938A-00A0C9034910}]
+@="ISqlDebugEvent2"
+
+[$RootKey$\Languages\Language Services\Disassembly]
+@="{C16FB7C4-9F84-11D2-8405-00C04F9902C1}"
+"NotALanguage"=dword:00000001
+"ShowSmartIndent"=dword:00000000
+"ShowCompletion"=dword:00000000
+"LangResID"=dword:00000004
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Languages\Language Services\ENC]
+@="{75058B12-F5A9-4B1C-9161-9B3754D7488F}"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"LangResID"=dword:0000138d
+"ShowCompletion"=dword:00000000
+"ShowSmartIndent"=dword:00000000
+"NotALanguage"=dword:00000001
+
+[$RootKey$\Languages\Language Services\Memory]
+@="{DF38847E-CC19-11D2-8ADA-00C04F79E479}"
+"ShowSmartIndent"=dword:00000000
+"ShowCompletion"=dword:00000000
+"LangResID"=dword:00000099
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"NotALanguage"=dword:00000001
+
+[$RootKey$\Languages\Language Services\Register]
+@="{13F6A341-59C0-11D3-994C-00C04F68FDAF}"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"LangResID"=dword:00001360
+"ShowCompletion"=dword:00000000
+"ShowSmartIndent"=dword:00000000
+"NotALanguage"=dword:00000001
+
+[$RootKey$\Menus]
+"{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"=", 1000, 1"
+
+[$RootKey$\OutputWindow\{FC076020-078A-11D1-A7DF-00A0C9110051}]
+"InitiallyInvisible"=dword:00000001
+"Name"="Debug"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+@="#66"
+
+[$RootKey$\Packages\{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}]
+"InprocServer32"="$ShellFolder$\Common7\Packages\Debugger\vsdebug.dll"
+"Preload"=dword:00000000
+@="Visual Studio Debugger"
+
+[$RootKey$\Packages\{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}\Automation]
+"Debugger"="Visual Studio Debugger"
+
+[$RootKey$\Packages\{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}\AutomationEvents]
+"DebuggerEvents"="Visual Studio Debugger Events"
+
+[$RootKey$\Packages\{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}\SatelliteDll]
+"DllName"="VSDebugUI.dll"
+"Path"="$ShellFolder$\Common7\Packages\Debugger\"
+
+[$RootKey$\Services\{13F6A341-59C0-11D3-994C-00C04F68FDAF}]
+"Name"="Register Language Service"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Services\{44B05627-95C2-4CE8-BDCD-4AA722785093}]
+"Name"="Debugger Marker Service"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Services\{75058B12-F5A9-4B1C-9161-9B3754D7488F}]
+"Name"="ENCStale Language Service"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Services\{7d960b16-7af8-11d0-8e5e-00a0c911005a}]
+"Name"="IVsDebugger"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Services\{C16FB7C4-9F84-11D2-8405-00C04F9902C1}]
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Name"="Disassembly Language Service"
+
+[$RootKey$\Services\{DF38847E-CC19-11D2-8ADA-00C04F79E479}]
+"Name"="Memory Language Service"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{59E4355F-5663-45B8-B4F3-51ED22561DED}]
+"DisplayName"="#201"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+@="Debugger Breakpoint Mapped Disabled Marker"
+
+[$RootKey$\Text Editor\External Markers\{6D799B25-7F32-4173-A4EB-521827D4AE4F}]
+"DisplayName"="#199"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+@="Debugger Current Statement Marker"
+
+[$RootKey$\Text Editor\External Markers\{7E2ED083-0516-4366-A84E-3FECB4369799}]
+"DisplayName"="#195"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+@="Debugger Breakpoint Disabled Marker"
+
+[$RootKey$\Text Editor\External Markers\{9D00A12E-9336-4585-A4A6-27B87383312D}]
+"DisplayName"="#196"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+@="Debugger Breakpoint Error Marker"
+
+[$RootKey$\Text Editor\External Markers\{A5998F84-BB45-4885-B552-0A9A6D98BE26}]
+"DisplayName"="#197"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+@="Debugger Breakpoint Warning Marker"
+
+[$RootKey$\Text Editor\External Markers\{C362E2C6-C242-425D-95D4-9A52B27096A8}]
+"DisplayName"="#194"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+@="Debugger Breakpoint Enabled Marker"
+
+[$RootKey$\Text Editor\External Markers\{CCB8B9D5-1643-4B41-8395-53C5B5ED5284}]
+"DisplayName"="#198"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+@="Debugger Call Return Marker"
+
+[$RootKey$\Text Editor\External Markers\{E52A924F-0A81-4CE0-B5A2-C4BAE0BF29E3}]
+"DisplayName"="#200"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+@="Debugger Breakpoint Mapped Enabled Marker"
+
+[$RootKey$\Text Editor\External Markers\{030EF597-983E-4DC8-BFE2-A57508256636}]
+@="Debugger Tracepoint Mapped Enabled Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#271"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{095C01F2-B8AB-4FBB-9404-6EFCD125E4F8}]
+@="Debugger Tracepoint Disabled Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#248"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{1915461E-0F61-44C5-8F2C-9CE3CA05B2C1}]
+@="Debugger Tracepoint Mapped Error Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#272"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{1B7D8015-15FF-4EC9-9C8C-5B83499C8468}]
+@="Debugger Breakpoint Advanced Disabled Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#263"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{1E36D6FC-803F-4FD3-BD00-435A4EEF8911}]
+@="Debugger Breakpoint Advanced Enabled Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#255"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{1F66BCD8-0239-4A9B-A3F9-F51321D3368C}]
+@="Debugger Tracepoint Error Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#249"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{2138B8A9-9D8F-4073-90AC-88678AC755A5}]
+@="Debugger Tracepoint Mapped Warning Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#273"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{237C7135-D8A7-48C4-832C-DF1FB8CEFD0E}]
+@="Debugger Tracepoint Advanced Disabled Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#266"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{2DAA2998-36A1-4B85-B8E9-4CDA438DDF8C}]
+@="Debugger Tracepoint Advanced Warning Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#269"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{2FA576FC-EA49-49B0-93D6-85133168BA82}]
+@="Debugger Tracepoint Mapped Disabled Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#270"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{37469172-F83A-4BFA-864B-6900D34EA6F0}]
+@="Debugger Tracepoint Enabled Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#247"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{3DDBBA3A-4C4A-493B-BAD1-70E2B47B421C}]
+@="Debugger Breakpoint Advanced Warning Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#265"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{546FAD73-6000-4138-BA73-9B4746C38324}]
+@="Debugger Breakpoint Mapped Warning Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#251"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{554B4B0E-829F-4e1a-9BB9-118AEF41F8D6}]
+@=""
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"Service"="{A179EC84-21B0-4923-B1CF-7032F2AD72FA}"
+
+[$RootKey$\Text Editor\External Markers\{61DF72D6-D8F7-472E-A78D-4DDF06ED7391}]
+@="Debugger Breakpoint Mapped Error Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#253"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{69DA1285-D454-4DA1-AB7A-1039C71F3F80}]
+@="Debugger Breakpoint Advanced Error Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#264"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{6D799B26-7F31-4173-A4EB-521827D4AE4F}]
+@="Debugger Current Statement (New Context) Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#5159"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{9E96A88C-A98E-4711-B610-F2783EEFD731}]
+@="Debugger Tracepoint Advanced Error Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#268"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{E3AA0043-8E3E-4441-BDC5-79F72387E807}]
+@="Debugger Tracepoint Advanced Enabled Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#267"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\Text Editor\External Markers\{F7218A30-4648-4994-8A38-2FAF8A992E4F}]
+@="Debugger Tracepoint Warning Marker"
+"Service"="{44B05627-95C2-4CE8-BDCD-4AA722785093}"
+"DisplayName"="#250"
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\ToolsOptionsPages\Debugger]
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Sort"=dword:00000004
+@="#5000"
+
+[$RootKey$\ToolsOptionsPages\Debugger\ENC]
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Page"="{6C3ECAA6-3EFB-4B0D-9660-2A3BA5B8440E}"
+@="#5003"
+
+[$RootKey$\ToolsOptionsPages\Debugger\ENC\VisibilityCmdUIContexts]
+"{0E67F38A-CADD-4FE1-8E77-E94B1DF90D1B}"="1"
+
+[$RootKey$\ToolsOptionsPages\Debugger\General]
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Page"="{FA9EB535-C624-13D0-AE1F-00A0190FF4C3}"
+@="#5001"
+
+[$RootKey$\ToolsOptionsPages\Debugger\JIT]
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Page"="{B9EFCAF2-9EAE-4022-9E39-FA947666ADD9}"
+@="#5036"
+
+[$RootKey$\ToolsOptionsPages\Debugger\JIT\VisibilityCmdUIContexts]
+"{CA99BB24-1434-44AD-8BF7-E50615989FB3}"="1"
+
+[$RootKey$\ToolsOptionsPages\Debugger\Native]
+"Package"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Page"="{3E08D829-6989-45C3-97DA-F8BF3C49AEAB}"
+@="#5004"
+
+[$RootKey$\ToolsOptionsPages\Debugger\Native\VisibilityCmdUIContexts]
+"{3B476D35-A401-11D2-AAD4-00C04F990171}"="1"
+"{8E1E81E7-55B6-4488-97B3-813FD261C719}"="1"
+
+[$RootKey$\ToolsOptionsPages\Debugger\VisibilityCmdUIContexts]
+"{338492A6-3F51-407C-8DE5-D25445BFFCDD}"="1"
+
+[$RootKey$\ToolWindows\{0504FF91-9D61-11D0-A794-00A0C9110051}]
+"Name"="Call Stack"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\ToolWindows\{0504FF91-9D61-11D0-A794-00A0C9110051}\Visibility]
+"{ADFC4E61-0397-11D1-9F4E-00A0C911004F}"=dword:00000000
+
+[$RootKey$\ToolWindows\{350F9856-A72B-11D2-8AD0-00C04F79E479}]
+"Name"="Memory"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\ToolWindows\{350F9856-A72B-11D2-8AD0-00C04F79E479}\Visibility]
+"{ADFC4E61-0397-11D1-9F4E-00A0C911004F}"=dword:00000000
+
+[$RootKey$\ToolWindows\{37ABA9BE-445A-11D3-9949-00C04F68FD0A}]
+"Name"="Modules"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\ToolWindows\{37ABA9BE-445A-11D3-9949-00C04F68FD0A}\Visibility]
+"{ADFC4E61-0397-11D1-9F4E-00A0C911004F}"=dword:00000000
+
+[$RootKey$\ToolWindows\{4A18F9D0-B838-11D0-93EB-00A0C90F2734}]
+"Name"="Locals"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\ToolWindows\{4A18F9D0-B838-11D0-93EB-00A0C90F2734}\Visibility]
+"{ADFC4E61-0397-11D1-9F4E-00A0C911004F}"=dword:00000000
+
+[$RootKey$\ToolWindows\{90243340-BD7A-11D0-93EF-00A0C90F2734}]
+"Name"="Watch"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\ToolWindows\{90243340-BD7A-11D0-93EF-00A0C90F2734}\Visibility]
+"{ADFC4E61-0397-11D1-9F4E-00A0C911004F}"=dword:00000000
+
+[$RootKey$\ToolWindows\{BE4D7042-BA3F-11D2-840E-00C04F9902C1}]
+"Name"="Breakpoints"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\ToolWindows\{BE4D7042-BA3F-11D2-840E-00C04F9902C1}\Visibility]
+"{F1536EF8-92EC-443C-9ED7-FDADF150DA82}"=dword:00000000
+
+[$RootKey$\ToolWindows\{CA4B8FF5-BFC7-11D2-9929-00C04F68FDAF}]
+"Name"="Registers"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\ToolWindows\{CA4B8FF5-BFC7-11D2-9929-00C04F68FDAF}\Visibility]
+"{ADFC4E61-0397-11D1-9F4E-00A0C911004F}"=dword:00000000
+
+[$RootKey$\ToolWindows\{CF577B8C-4134-11D2-83E5-00C04F9902C1}]
+"Name"="Disassembly"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\ToolWindows\{CF577B8C-4134-11D2-83E5-00C04F9902C1}\Visibility]
+"{ADFC4E61-0397-11D1-9F4E-00A0C911004F}"=dword:00000000
+
+[$RootKey$\ToolWindows\{E62CE6A0-B439-11D0-A79D-00A0C9110051}]
+"Name"="Threads"
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\ToolWindows\{E62CE6A0-B439-11D0-A79D-00A0C9110051}\Visibility]
+"{ADFC4E61-0397-11D1-9F4E-00A0C911004F}"=dword:00000000
+
+[$RootKey$\ToolWindows\{398D7620-6D5B-11D3-9952-00C04F68FDAF}]
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Name"="This"
+
+[$RootKey$\ToolWindows\{398D7620-6D5B-11D3-9952-00C04F68FDAF}\Visibility]
+"{ADFC4E61-0397-11D1-9F4E-00A0C911004F}"=dword:00000000
+
+[$RootKey$\ToolWindows\{ECDD9EE0-AC6B-11D0-89F9-00A0C9110055}]
+@="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+"Name"="Running Documents"
+
+[$RootKey$\ToolWindows\{ECDD9EE0-AC6B-11D0-89F9-00A0C9110055}\Visibility]
+"{ADFC4E61-0397-11D1-9F4E-00A0C911004F}"=dword:00000000
+
+[$RootKey$\FontAndColors\AllDebuggerVarWnds]
+"Category"="{35B25E75-AB53-4C5D-80EA-6682EBB2BBBD}"
+"NameID"=dword:00000326
+"Package"="{3B70A4AE-BB91-4ABE-A05C-C4DE07B9763E}"
+
+[$RootKey$\FontAndColors\Autos]
+"Category"="{A7EE6BEE-D0AA-4B2F-AD9D-748276A725F6}"
+"NameID"=dword:00000321
+"Package"="{3B70A4AE-BB91-4ABE-A05C-C4DE07B9763E}"
+
+[$RootKey$\FontAndColors\CallStack]
+"Category"="{FD2219AF-EBF8-4116-A801-3B503C48DFF0}"
+"NameID"=dword:00000323
+"Package"="{3B70A4AE-BB91-4ABE-A05C-C4DE07B9763E}"
+
+[$RootKey$\FontAndColors\Locals]
+"Category"="{8259ACED-490A-41B3-A0FB-64C842CCDC80}"
+"NameID"=dword:00000322
+"Package"="{3B70A4AE-BB91-4ABE-A05C-C4DE07B9763E}"
+
+[$RootKey$\FontAndColors\Memory]
+"Category"="{CE2ECED5-C21C-464C-9B45-15E10E9F9EF9}"
+"NameID"=dword:00000099
+"Package"="{F5E7E71D-1401-11D1-883B-0000F87579D2}"
+"ToolWindowPackage"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\FontAndColors\Registers]
+"Category"="{40660F54-80FA-4375-89A3-8D06AA954EBA}"
+"NameID"=dword:00001360
+"Package"="{F5E7E71D-1401-11D1-883B-0000F87579D2}"
+"ToolWindowPackage"="{C9DD4A57-47FB-11D2-83E7-00C04F9902C1}"
+
+[$RootKey$\FontAndColors\Threads]
+"Category"="{BB8FE807-A186-404A-81FA-D20B908CA93B}"
+"NameID"=dword:00000324
+"Package"="{3B70A4AE-BB91-4ABE-A05C-C4DE07B9763E}"
+
+[$RootKey$\FontAndColors\Watch]
+"Category"="{358463D0-D084-400F-997E-A34FC570BC72}"
+"NameID"=dword:00000320
+"Package"="{3B70A4AE-BB91-4ABE-A05C-C4DE07B9763E}"
+
+[$RootKey$\ToolsOptionsPages\Designers]
+@="#3122"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"Sort"=dword:00000032
+
+[$RootKey$\ToolsOptionsPages\Designers\Table Designer]
+@="#6227"
+"Package"="{88E25AE9-E955-48CA-94B8-08A1FC8F62BD}"
+"Page"="{89e05c19-4303-4204-9b99-3f7650da8714}"
+"Sort"=dword:0000000a
+
+//[$RootKey$\ToolsOptionsPages\Designers\MaintenancePlans]
+//@="#154"
+//"Package"="{4A0C6509-BF90-43da-ABEE-0ABA3A8527F1}"
+//"Page"="{9AB657DD-C512-48e1-A79D-BF1F128F1A70}"
+//"Type"="Microsoft.DataTransformationServices.Design.VsOptionPages.AutomaticConnectOptionPage, Microsoft.DataTransformationServices.Design, PublicKeyToken=89845dcd8080cc91"
+//"PageName"="Auto Connect"
+//"Sort"=dword:00000014
+
+[$RootKey$\FileExtensionMapping\{C5204709-F0C8-4BE7-AC27-EFB65E12FDE1}]
+@="SQL Query Editor"
+"DisplayName"="#1"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"EditorGUID"="{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+
+[$RootKey$\FileExtensionMapping\{9B4D3785-6BE4-4C92-B05A-792D6760ABAC}]
+@="SQL Query Editor with Encoding"
+"DisplayName"="#7"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"EditorGUID"="{C76E46D4-B7D7-42b8-9726-A98D8045B179}"
+
+[$RootKey$\FileExtensionMapping\{201E35EF-D4A5-45B1-AB17-A0E0D3F2975F}]
+@="MDX Query Editor"
+"DisplayName"="#2"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"EditorGUID"="{1CEAF4C2-677D-456A-9BED-1AC73B989127}"
+
+[$RootKey$\FileExtensionMapping\{860BA2FC-F6BF-4D45-855A-32E714A9BFBF}]
+@="MDX Query Editor with Encoding"
+"DisplayName"="#8"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"EditorGUID"="{14A63023-F03C-4d14-8E8F-9D1E2D9325D0}"
+
+[$RootKey$\FileExtensionMapping\{833A3325-C0FC-4C2B-B32B-360F1474E5E9}]
+@="DAX Query Editor"
+"DisplayName"="#2"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"EditorGUID"="{7B55DE85-B56C-4A92-A964-DF2032512683}"
+
+[$RootKey$\FileExtensionMapping\{31F89F6D-9A71-4484-B2A0-DCDE9FEC7AD5}]
+@="DAX Query Editor with Encoding"
+"DisplayName"="#8"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"EditorGUID"="{ADBD55DE-75C9-41CC-9032-8389A12D5856}"
+
+[$RootKey$\FileExtensionMapping\{AECBA331-990F-4600-B682-97F1AE06EC5B}]
+@="DMX Query Editor"
+"DisplayName"="#11"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"EditorGUID"="{A8AE89ED-34A0-489e-8A98-AEE7CEDEA6B7}"
+
+[$RootKey$\FileExtensionMapping\{58B01D7F-9A39-4B69-B3D9-FEE55FFD2224}]
+@="DMX Query Editor with Encoding"
+"DisplayName"="#12"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"EditorGUID"="{F52E35C3-1150-4ed7-B0D9-5DBBF66D9F34}"
+
+[$RootKey$\FileExtensionMapping\{E23CF3C5-4ADC-4B85-BAAB-7BF4539978C3}]
+@="XMLA Query Editor"
+"DisplayName"="#4"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"EditorGUID"="{B7DF28AE-C9A1-4263-A498-9897B98336A1}"
+
+[$RootKey$\FileExtensionMapping\{4432D32D-63C2-4694-98DC-72577FDBBA57}]
+@="XMLA Query Editor with Encoding"
+"DisplayName"="#9"
+"Package"="{4058755A-8FBE-41C7-BC99-3DBF5C74BA62}"
+"EditorGUID"="{7A94C22A-CEC2-4aff-B648-4C416370FC77}"

@@ -1,0 +1,65 @@
+[$RootKey$\Packages\{cd5a6b66-0d89-4949-b356-361cf0d74372}]
+@="RadLangSvc.Package, RadLangSvc, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\system32\mscoree.dll"
+"Class"="RadLangSvc.Package"
+"CodeBase"="$PackageFolder$\RadLangSvc.dll"
+"ID"=dword:00000065
+"MinEdition"="Professional"
+"ProductVersion"="15.0.0.0"
+"ProductName"="TSQL Language Service"
+"CompanyName"="Microsoft Corporation"
+
+
+[$RootKey$\Languages\File Extensions\.SQL] 
+@="{c4d96929-a9b0-42cc-b3e0-adac0435d7f2}" 
+
+[$RootKey$\Languages\Language Services\SQL] 
+@="{c4d96929-a9b0-42cc-b3e0-adac0435d7f2}" 
+"Package"="{cd5a6b66-0d89-4949-b356-361cf0d74372}" 
+"LangResID"=dword:000000C8 
+"ShowCompletion"=dword:00000001 
+"AutoOutlining"=dword:00000001 
+"ShowMatchingBrace"=dword:00000001 
+"CodeSenseDelay"=dword:000001F4 
+"MatchBraces"=dword:00000001 
+"EnableAsyncCompletion"=dword:00000001 
+"CodeSense"=dword:00000001 
+"MaxErrorMessages"=dword:000000C8 
+"EnableCommenting"=dword:00000001 
+
+
+[$RootKey$\Services\{c4d96929-a9b0-42cc-b3e0-adac0435d7f2}] 
+@="{cd5a6b66-0d89-4949-b356-361cf0d74372}" 
+"Name"="LanguageService"
+
+[$RootKey$\UserSettings\SQL_Editor] 
+@="#202" 
+"Package"="{cd5a6b66-0d89-4949-b356-361cf0d74372}" 
+"Category"="{7d092b67-f9b8-4de4-a60e-298bada6f735}" 
+"AlternateParent"="AutomationProperties\TextEditor" 
+
+[$RootKey$\AutomationProperties\TextEditor\SQL] 
+@="#200" 
+"Name"="SQL" 
+"Package"="{F5E7E720-1401-11D1-883B-0000F87579D2}" 
+"ResourcePackage"="{cd5a6b66-0d89-4949-b356-361cf0d74372}" 
+"ProfileSave"=dword:00000001 
+
+[$RootKey$\Languages\Language Services\SQL\EditorToolsOptions\Advanced] 
+@="#201" 
+"Package"="{cd5a6b66-0d89-4949-b356-361cf0d74372}" 
+"Page"="{7d092b67-f9b8-4de4-a60e-298bada6f735}"
+
+[$RootKey$\Languages\CodeExpansions\SQL]
+@="{c4d96929-a9b0-42cc-b3e0-adac0435d7f2}"
+"Package"="{cd5a6b66-0d89-4949-b356-361cf0d74372}"
+"DisplayName"="1"
+"LangStringID"="SQL"
+"IndexPath"="%InstallRoot%\\Common7\IDE\\SQL\\Snippets\\%LCID%\\SnippetsIndex.xml"
+"ShowRoots"=dword:00000000
+
+[$RootKey$\Languages\CodeExpansions\SQL\Paths]
+"SQL"="%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\Function;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\Index;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\Login;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\Role;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\Schema;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\Stored Procedure;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\Synonym;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\Table;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\Trigger;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\User;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\User Defined Data Type;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\User Defined Table Type;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\User Defined Type;%InstallRoot%\Common7\IDE\SQL\Snippets\%LCID%\View;$MyDocuments$\SQL Server Management Studio\Code Snippets\SQL\My Code Snippets"
+
+[$RootKey$\Languages\CodeExpansions\SQL\ForceCreateDirs]
+"SQL"="$MyDocuments$\SQL Server Management Studio\Code Snippets\SQL\My Code Snippets\"

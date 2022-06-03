@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="9aa94b07-b8c4-411a-9d68-9287fd610c1b">
+    <Name>SQL Server Management Studio VSIX manifest</Name>
+    <Author>Microsoft</Author>
+    <Version>15.0</Version>
+    <Description xml:space="preserve">Core extensions for SQL Server Management Studio</Description>
+    <Locale>1033</Locale>
+    <InstalledByMsi>true</InstalledByMsi>
+    <SupportedProducts>
+      <IsolatedShell Version="1.0">ssms</IsolatedShell>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+    <SystemComponent>true</SystemComponent>
+  </Identifier>
+  <References />
+  <Content>
+    <VsPackage>Microsoft.SqlServer.Management.HadrTasks.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.QueryStoreVS.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.PbmUiPackage.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.RegisteredServersUI.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.SqlStudio.ResourceMonitor.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.Reports.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.Scripting.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.SqlStudio.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.SqlStudio.Explorer.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.SqlStudio.Actions.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.ServerInformation.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.UpdateChecker.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.XEventUI.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Dependencies.Designer.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.StretchDatabase.Monitor.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.Management.ThreatDetection.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlServer.QueryTuning.Control.pkgdef</VsPackage>
+    <VsPackage>Microsoft.SqlTools.TelemetryPackage.pkgdef</VsPackage>
+    <VsPackage>SQLEditors.pkgdef</VsPackage>
+    <VsPackage>RadLangSvc.pkgdef</VsPackage>
+    <VsPackage>Microsoft.AnalysisServices.SsmsIntegration.pkgdef</VsPackage>
+    <VsPackage>Microsoft.AnalysisServices.SsmsProject.pkgdef</VsPackage>
+    <VsPackage>languagepackage.pkgdef</VsPackage>
+    <VsPackage>SQLProject.pkgdef</VsPackage>
+    <MefComponent>SQLEditors.dll</MefComponent>
+    <MefComponent>Microsoft.AnalysisServices.DaxEditor.EditorExtensions.dll</MefComponent>
+  </Content>
+</Vsix>

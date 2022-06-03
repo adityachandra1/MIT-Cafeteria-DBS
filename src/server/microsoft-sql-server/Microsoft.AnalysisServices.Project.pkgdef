@@ -1,0 +1,22 @@
+[$RootKey$\InstalledProducts\AnalysisServicesPackage]
+@="#110"
+"Package"="{eaba99f3-7341-4105-8a3f-1c4f3955c4fc}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+
+[$RootKey$\Packages\{eaba99f3-7341-4105-8a3f-1c4f3955c4fc}]
+@="Microsoft.AnalysisServices.Project.AnalysisServicesPackage, Microsoft.AnalysisServices.Project, Version=15..0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.AnalysisServices.Project.AnalysisServicesPackage"
+"CodeBase"="$RootFolder$\Common7\IDE\Microsoft.AnalysisServices.Project.dll"
+
+[$RootKey$\Menus]
+"{eaba99f3-7341-4105-8a3f-1c4f3955c4fc}"=", Menus.ctmenu, 1"
+
+[$RootKey$\InstalledProducts\SQL Server Analysis Services]
+"Package"="{EABA99F3-7341-4105-8A3F-1C4F3955C4FC}"
+"UseInterface"=dword:00000001
+
+[$RootKey$\Packages\{EABA99F3-7341-4105-8A3F-1C4F3955C4FC}\Toolbox]
+"Default Items"=dword:00000005

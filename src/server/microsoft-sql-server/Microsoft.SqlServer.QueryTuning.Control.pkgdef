@@ -1,0 +1,20 @@
+﻿[$RootKey$\InstalledProducts\QueryTuningControlPackage]
+@="#110"
+"Package"="{B91FEBBD-64A9-4862-86DC-2860BEA823FB}"
+"PID"="1.0"
+"ProductDetails"="#112"
+"LogoID"="#400"
+[$RootKey$\Packages\{B91FEBBD-64A9-4862-86DC-2860BEA823FB}]
+@="Microsoft.SqlServer.QueryTuning.Control.QueryTuningControlPackage, Microsoft.SqlServer.QueryTuning.Control, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlServer.QueryTuning.Control.QueryTuningControlPackage"
+"Assembly"="Microsoft.SqlServer.QueryTuning.Control, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+
+[$RootKey$\Services\{4DB842B9-D91F-433C-AE55-B5792C54599D}]
+@="{B91FEBBD-64A9-4862-86DC-2860BEA823FB}"
+"Name"="QueryTuningControlWindowService"
+
+[$RootKey$\ToolWindows\{73D342CC-6F45-4170-B755-CE63F054AC47}]
+@="{B91FEBBD-64A9-4862-86DC-2860BEA823FB}"
+"Name"="QueryTuningControlWindow"
+"Style"="MDI"

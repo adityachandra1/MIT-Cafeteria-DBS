@@ -1,0 +1,13 @@
+[$RootKey$\Packages\{256BE8A1-8A2D-4DC6-A789-8909E62BEE5D}]
+@="SqlTelemetryPackage"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="Microsoft.SqlTools.Telemetry.SqlTelemetryPackage"
+"Assembly"="Microsoft.SqlTools.TelemetryPackage, Version=15.0.0.0,PublicKeyToken=89845dcd8080cc91,Culture=neutral"
+[$RootKey$\Services\{F02B4C86-BEA0-4B3F-840E-0C9781F35D45}]
+@="{256BE8A1-8A2D-4DC6-A789-8909E62BEE5D}"
+"Name"="SSqlTelemetryService"
+[$RootKey$\Services\{2999C09D-6CCB-44E2-B772-76E6390FD901}]
+@="{256BE8A1-8A2D-4DC6-A789-8909E62BEE5D}"
+"Name"="SSqlRemoteSettingsService"
+[$RootKey$\AutoLoadPackages\{adfc4e64-0397-11d1-9f4e-00a0c911004f}]
+"{256BE8A1-8A2D-4DC6-A789-8909E62BEE5D}"=dword:00000000
